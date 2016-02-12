@@ -1,0 +1,404 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: $main-font-family;
+  font-size: $font-size-large;
+  color: $text-color;
+  -webkit-font-smoothing: antialiased;
+
+  line-height: $line-height-base;
+}
+
+a {
+  color: $text-color;
+}
+
+a:hover, a:focus {
+  color: $brand-orange;
+  text-decoration: none;
+  transition: all 0.33s ease;
+}
+
+h1, h2, h3, h4 {
+  font-family: $header-font-family;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: $font-size-h1;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: $font-size-h2;
+  font-weight: normal;
+}
+
+p {
+  margin: 0;
+}
+
+
+//site header group - site logo, dropdown rest nav, main navigation
+header::after {
+  content:"";
+  position: absolute;
+  margin-left: -15px;
+  margin-top: 20px;
+  width: 100%;
+  height: 20px;
+  background: url("../img/top_curve.png");
+}
+
+.site-header {
+  min-height: 100px;
+  padding: 30px 0;
+
+  font-family: $main-font-family-bold;
+  font-size: 1.1em;
+
+  background: $brand-bright-orange;
+}
+
+//logotype
+.logo {
+  display: block;
+  padding-top: 10px;
+
+  min-width: 220px;
+}
+
+//dropdown restoran menu
+.rest-name {
+  float: left;
+  margin: 0;
+  padding: 12px 0 0 0;
+
+  list-style: none;
+}
+
+.dropdown-menu {
+  background: $brand-bright-orange;
+  border: 1px solid $brand-green;
+  box-shadow: none;
+}
+
+.dropdown-menu > li > a {
+  padding: 10px;
+  font-size: 1.3em;
+}
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+  background: $brand-green;
+}
+
+//main navigation
+
+.main-nav {
+  float: right;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  text-align: center
+}
+
+.main-nav > li {
+  display: inline-block;
+
+}
+
+.main-nav > li > a {
+  display: block;
+  height: 40px;
+  padding: 10px 5px;
+}
+
+.active {
+  color: $brand-orange;
+}
+
+//hero image and restaurant about
+.hero {
+  background: $brand-green;
+}
+
+.hero::after {
+  content:"";
+  position: absolute;
+  z-index: 10000;
+  margin-left: -15px;
+
+  width: 100%;
+  height: 20px;
+  background: url("../img/bot_curve_green.png");
+}
+
+
+.hero-img {
+  margin-bottom: -130px;
+}
+
+.about-h1 {
+  display: block;
+  max-width: 530px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.about-text {
+  margin-bottom: 60px;
+  padding-top: 40px;
+
+  columns: 300px 2;
+  text-align: justify;
+  text-indent: 2em;
+}
+
+//carousel
+
+.carousel-inner .item img {
+  width: 100%;
+}
+
+//advantages - delivery cookery banquet
+
+.advantages-wrapper {
+  position: relative;
+  text-align: center;
+}
+
+.advantages-wrapper::before {
+  content:"";
+  position: absolute;
+  margin-left: -15px;
+  margin-top: -20px;
+  width: 100%;
+  height: 20px;
+  background: url("../img/top_curve_white.png");
+}
+
+.advantages-wrapper::after {
+  content:"";
+  position: absolute;
+  margin-left: -15px;
+  width: 100%;
+  height: 20px;
+  background: url("../img/bot_curve_white.png");
+}
+
+.advant-item {
+  height: 470px;
+  margin: 100px 0;
+  padding: 20px 40px;
+}
+
+.advant-item img {
+  width: 140px;
+}
+
+.advant-item .btn {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 5px;
+
+  width: 114px;
+  height: 31px;
+
+  font-family: $main-font-family-bold;
+  color: white;
+  background: $brand-orange;
+
+  mask: url(../img/svg/btn.svg#btn);
+}
+
+.advant-item a:hover, .advant-item a:focus, {
+  background: $brand-green;
+}
+
+//gallery section
+
+.gallery-wrapper {
+  text-align: center;
+
+  background: $brand-green;
+}
+
+.gallery {
+  padding: 80px 0;
+}
+
+.gal-item {
+  margin-top: 60px;
+}
+
+.gal-item img {
+  width: 400px;
+  height: 270px;
+  mask-image: url(../img/svg/img-clip.svg#img)
+}
+
+// footer section - adress, phone
+footer::before {
+  content:"";
+  position: absolute;
+  margin-left: -15px;
+  margin-top: -20px;
+  width: 100%;
+  height: 20px;
+  background: url("../img/bot_curve.png");
+}
+
+.footer-wrapper {
+  background: $brand-bright-orange;
+}
+
+.site-footer {
+  padding: 100px;
+
+  font-family: $main-font-family-bold;
+
+}
+
+.copyright {
+  font-size: .8em;
+}
+
+.logo-footer img {
+  width: 180px;
+}
+
+//**************** MENU PAGE
+
+// restaurant menu
+
+.sub-menu {
+  margin: 0;
+  padding: 50px 0 0 0;
+
+  list-style: none;
+  text-align: center;
+
+}
+
+.sub-menu li {
+  display: inline-block;
+
+}
+
+.sub-menu li a {
+  display: block;
+  margin-right: 10px;
+
+  font-family: $main-font-family-bold;
+  font-size: $font-size-base;
+  text-transform: uppercase;
+}
+
+//rest menu block with items
+
+.rest-section {
+  margin-bottom: 50px;
+}
+
+.rest-section h1 {
+  text-align: center;
+  font-size: 5em;
+}
+
+.rest-section-item {
+  position: relative;
+  height: 520px;
+  padding: 0 40px;
+  margin: 40px 0;
+}
+
+.rest-section-item img {
+  width: 100%;
+  height: 200px;
+}
+
+.rest-section-item p {
+  font-size: $font-size-large;
+  text-align: justify;
+}
+
+.atr {
+  position: absolute;
+  bottom: 0px;
+  font-weight: bold;
+}
+
+.atr .price {
+  padding-left: 20px;
+  font-size: 1.1em;
+}
+
+//*************** NEWS PAGE
+
+.news {
+  padding: 100px 15px;
+}
+
+.news-item {
+  margin-bottom: 100px;
+}
+
+.news-img img{
+  height: 100%;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.news-date {
+  font-family: $main-font-family-bold;
+  text-transform: uppercase;
+}
+
+.news-text {
+  font-size: $font-size-large;
+}
+
+// contacts page
+
+.contacts h1 {
+  text-align: center;
+  line-height: 3;
+}
+
+.contacts-info {
+  padding: 10px 0;
+  font-size: 1.1em;
+  line-height: 1.7;
+}
+
+.contacts-info span {
+  font-weight: bold;
+}
+
+//single post
+
+.single {
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+    h1,h2,h3,h4,h5,h6 {
+      color: #333333;
+	  font-family: Yanone Kaffeesatz, Arial, sans-serif;
+	text-shadow: 1px 1px 0 #fff;
+      text-decoration: none;
+    }
+	a:hover, a:focus {
+		color: #01367e;
+      text-decoration: none;
+    }
+	body.admin-bar .navbar-wrapper {
+       padding-top: 20px;
+    }
+
+.navbar-inner .span3,
+.navbar-inner .span8 {
+   margin-left: 0;
+}
+.site-description {
+  float: left; 
+  padding-left: 0; 
+  padding-top: 0; 
+  color: #fff;
+}
+/* Make sure select elements fit in widgets */
+.widget select {
+	max-width: 100%;
+}
+
+/* Search widget */
+
+.widget #searchform {
+  margin-top: 10px;
+}
+	.powered-by {
+       padding-top: 0;
+       text-align: center;
+    }
+
+	

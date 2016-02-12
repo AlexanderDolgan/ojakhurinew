@@ -1,0 +1,740 @@
+/*compass modules*/
+@import "compass/reset";
+@import "compass/css3";
+
+/*Variables*/
+$base-font-family: 'Helvetica Neue', Arial, sans-serif;
+$header-font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+$base-color: #C7BEB0;
+$text-color: #474747;
+
+@mixin border-bg {
+  border: 8px;
+  border-image-source: url(../images/border.png);
+  border-image-slice: 20 22;
+  border-image-repeat: round;
+}
+
+@font-face {
+  font-family: Neucha;
+  src: url(../fonts/neucha.otf);
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: $base-font-family;
+  line-height: 1.7;
+  color: $text-color;
+}
+
+hr {
+  max-width: 100px;
+  border-color: $base-color;
+  border-width: 2px;
+}
+
+hr .light {
+  border-color: #fff;
+}
+
+a {
+  color: $text-color;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+  &:hover, &:focus {
+    color: darken($text-color, 30%);
+    text-decoration: none;
+  }
+}
+
+h1, h2, h3, h4 {
+  font-family: $header-font-family;
+  font-weight: 500;
+}
+
+/* main navigation*/
+.navbar-default {
+  font-family: $base-font-family;
+  border-color: rgba(34, 34, 34, .05);
+  background-color: rgba(255, 255, 255, .9);
+  padding-right: 20px;
+  .navbar-header .navbar-brand svg {
+    height: 40px;
+    width: 90px;
+    margin-top: -10px;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    fill:$text-color;
+    &:hover {
+      fill: $base-color;
+      -webkit-transition: all .35s;
+      -moz-transition: all .35s;
+      transition: all .35s;
+    }
+    // text-transform: uppercase;
+    // font-family: $base-font-family;
+    // font-weight: 700;
+    // color: #6d6d6d;
+    // &:hover {
+    //   color: $base-color;
+    // }
+  }
+  .nav > li > a {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    color: $text-color;
+    &:hover, &:focus {
+      color: $base-color;
+    }
+  }
+}
+
+.rest-name {
+  float: left;
+  margin-top: 13px;
+  a {
+    color: $text-color;
+  }
+  .dropdown-menu{
+    border: none;
+    li a {
+
+    }
+  }
+}
+/*header content*/
+.main-header {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  line-height: 1.2;
+  color: #fff;
+  background-image: url(../images/header.jpg);
+  background-position: center;
+  @include background-size(cover);
+  &-vacancies {
+    background-image: url("../images/staff2.jpg");
+  }
+  &-menu {
+    background-image: url("../images/menu2.jpg");
+  }
+  &-theme {
+    background-image: url("../images/menu2.jpg");
+  }
+  &-contacts {
+    background-image: url("../images/contact_header2.jpg");
+  }
+  &-gallery {
+    background-image: url("../images/interior5.jpg");
+  }
+  .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
+    h1 {
+      font-weight: 700;
+      text-shadow: 1px 1px 1px #3a3a3a;
+    }
+    svg {
+      margin-bottom: 20px;
+      margin-top: 20px;
+      width: 275px;
+      fill: #FFF;
+    }
+    .header-content-inner {
+      margin: 0 auto;
+      padding: 0 30px;
+      p {
+        margin: 0 auto;
+        line-height: 1.5;
+        max-width: 600px;
+        font-weight: 700;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
+      }
+    }
+  }
+}
+
+.main-header-contacts, .main-header-menu, .main-header-theme, .main-header-vacancies, .main-header-gallery {
+  .header-content {
+    h1 {
+      font-size: 3.5em;
+      text-align: center;
+    }
+    h3 {
+      font-size: 1em;
+      font-weight: 700;
+    }
+  }
+}
+
+@media(min-width: 768px) {
+  .main-header {
+    height: 35%;
+    overflow: hidden;
+    .header-content {
+      position: absolute;
+      top: 50%;
+      padding: 0 50px;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      .header-content-inner {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1000px;
+      }
+      img {
+        margin-bottom: 30px;
+        width: 250px;
+      }
+    }
+  }
+  .main-header-index {
+    height: 100%;
+  }
+}
+
+/*Sections*/
+.color-section {
+  position: relative;
+  text-align: center;
+  color: $text-color;
+  padding: 50px 10px;
+  background-color: $base-color;
+  z-index: 999;
+  border-top: 2px solid #897A69;
+  border-bottom: 2px solid #897A69;
+  //box-shadow: 1px 1px 15px rgba(0, 0, 0, .5);
+  .section-content-container {
+    background-color: #FFF;
+    padding: 40px;
+    background-image: url("../images/papar_texture_thumb08.jpg");
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+    @include border-bg;
+
+  }
+  h1 {
+    font-size: 1.7em;
+  }
+  a {
+    color: darken($base-color, 25%);
+    padding-right: 25px;
+    &:hover {
+      color: $text-color;
+      -webkit-transition: all .35s;
+      -moz-transition: all .35s;
+      transition: all .35s;
+    }
+    i {
+    }
+  }
+  p {
+    margin: 0 auto;
+    max-width: 768px;
+  }
+}
+
+.white-section {
+  text-align: center;
+  color: $text-color;
+  padding: 90px 0;
+  @include background-size(cover);
+  hr {
+    border-color: $base-color;
+  }
+  .service-box i {
+    color: $text-color;
+    margin-top: 15px;
+    &:hover {
+      color: $base-color;
+      -webkit-transition: all .35s;
+      -moz-transition: all .35s;
+      transition: all .35s;
+    }
+  }
+  h3 {
+    font-size: 1.4em;
+    margin: 15px 0 5px 0;
+  }
+  h1 {
+    font-size: 1.7em;
+  }
+  p {
+    margin: 0 auto;
+    max-width: 250px;
+  }
+}
+
+.services-background {
+  padding: 40px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+  background-image: url("../images/papar_texture_thumb08.jpg");
+  @include border-bg;
+}
+
+.welcome {
+  background-color: #FFF;
+  background-image: url("../images/bg_white_section.jpg");
+  background-position: center;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+//contact page
+.yandex-map {
+  border-top: 2px solid #897A69;
+}
+/*contact form*/
+input {
+  width: 100%;
+  border-radius: 10px;
+  border: solid 1px #dddddd;
+
+}
+
+input:focus, textarea:focus {
+
+}
+
+.contact-form {
+  text-align: center;
+  padding: 50px 0 50px 0;
+  background: url("../images/papar_texture_thumb08.jpg") repeat;
+  color: $text-color;
+}
+
+.contact-form h1 {
+  margin-bottom: 50px;
+  font-size: 2em;
+}
+
+.contact-form p {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.contact-form p input {
+  margin: 10px 0;
+  height: 40px;
+  padding: 10px;
+  color: #565656;
+}
+
+textarea {
+  margin-top: 10px;
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+  border: solid 1px #dddddd;
+  color: #565656;
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  textarea {
+    width: 600px;
+  }
+}
+
+.wpcf7-form p:last-of-type {
+  width: 150px;
+}
+
+.wpcf7-form p:last-of-type input {
+  background-color: #FFFFFF;
+  color: #AD9D88;
+  padding: 0;
+}
+
+.wpcf7-form p:last-of-type input:hover {
+  background-color: #ececec;
+  color: #AD9D88;
+  padding: 0;
+}
+
+.wpcf7-mail-sent-ok {
+  border: 2px solid #FFFFFF;
+}
+
+/*contact-social form*/
+.contacts-page-social {
+  background-color: #1c1c1c;
+  padding: 10px 0 10px 0;
+}
+
+.contacts-page-social a {
+  padding-left: 12px;
+  margin-left: 20px;
+}
+
+//page-vacancies
+.vacancies {
+  border-top: 2px solid #897A69;
+}
+.vacancies-block{
+  padding: 60px 30px;
+  i {
+    color: $base-color;
+    &:hover {
+      color: lighten($base-color, 10%);
+      -webkit-transition: all .35s;
+      -moz-transition: all .35s;
+      transition: all .35s;
+    }
+  }
+  h1 {
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: #555;
+  }
+  p {
+    margin: 10px 0;
+    padding: 0 20px;
+  }
+  .bg-content {
+    background-color: #FFF;
+    background-image: url("../images/papar_texture_thumb08.jpg");
+    background-position: center;
+    padding: 40px 20px;
+
+  }
+}
+
+.vacancies {
+  background-color: #FFF;
+  background-image: url("../images/staff.jpg");
+  background-position: center;
+  padding: 20px;
+  @include background-size(cover);
+
+}
+
+/*Footer*/
+
+.footer {
+
+  i {
+    margin-top: 20px;
+  }
+  p {
+    margin-top: 10px;
+  }
+  hr {
+    border-color: $base-color;
+  }
+}
+
+.footer-container {
+  @include border-bg;
+}
+
+.light {
+  border-color: #FFF;
+}
+
+#wpadminbar {
+  top: 50px;
+}
+
+.carousel {
+  width: 100%;
+  .carousel-inner {
+
+  }
+}
+
+//gallery page
+
+.gallery-section {
+  padding: 90px 0;
+  background: url("../images/papar_texture_thumb08.jpg") repeat;
+  text-align: center;
+  h3 {
+    margin-top: 20px;
+    font-size: 2em;
+    color: $text-color;
+    font-weight: 500;
+  }
+
+}
+//main page carousel
+.carousel {
+  .carousel-inner img {
+    width: 100vw;
+  }
+}
+
+//menu page
+@media (min-width: 769px) {
+  .menu-page {
+    padding: 150px 0;
+    background-image: url("../images/papar_texture_thumb08.jpg");
+    border-top: 2px solid #897A69;
+    .nav-menu {
+      box-shadow: 1px 1px 15px rgba(0, 0, 0, .1);
+      width: 220px;
+      text-align: center;
+      background-color: #fff;
+      & > li > a {
+        display: block;
+        padding: 5px 10px;
+        color: #FFF;
+        background-color: lighten($base-color, 10%);
+        &:hover {
+          color: $base-color;
+          background-color: lighten($base-color, 35%);
+
+          border-left: 10px solid lighten($base-color, 10%);
+        }
+      }
+    }
+  }
+  ul .children {
+    margin: 15px 5px;
+    li {
+    }
+    a {
+      border: 1px solid rgba(255, 255, 255, .1);
+      margin-bottom: -1px;
+      display: block;
+      padding: 5px 10px;
+      border-bottom: 1px solid rgba(174, 158, 87, 0.3);
+      background-color: #FFF;
+      &:hover {
+        color: $base-color;
+        background-color: lighten($base-color, 35%);
+        border-left: 10px solid lighten($base-color, 10%)
+      }
+    }
+  }
+  .affix {
+    position: relative;
+  }
+}
+
+.menu-page {
+  padding: 50px 0;
+  background-image: url("../images/papar_texture_thumb08.jpg");
+  .nav-menu {
+    margin: 0 auto;
+    max-width: 300px;
+    text-align: center;
+    background-color: #fff;
+    & > li > a {
+      display: block;
+      padding: 5px 10px;
+      color: #FFF;
+      background-color: lighten($base-color, 10%);
+      &:hover {
+        color: $base-color;
+        background-color: lighten($base-color, 35%);
+        border-left: 10px solid lighten($base-color, 10%);
+      }
+    }
+  }
+}
+
+ul .children {
+  margin: 15px 5px;
+  li {
+  }
+  a {
+    border: 1px solid rgba(255, 255, 255, .1);
+    margin-bottom: -1px;
+    display: block;
+    padding: 5px 10px;
+    border-bottom: 1px solid rgba(174, 158, 87, 0.3);
+    background-color: #FFF;
+    &:hover {
+      color: $text-color;
+      background-color: lighten($text-color, 35%);
+
+      border-left: 10px solid lighten($text-color, 10%)
+    }
+  }
+}
+
+//style for menu items
+
+.erm_menu {
+  border-color: #AD9D88;
+
+}
+.erm_menu .erm_title {
+  font-family: 'Neucha';
+  font-size: 4.5rem;
+  color: #474747;
+}
+.erm_menu_content > li {
+  margin: 0;
+  border-bottom: 1px dotted rgba(0,0,0,.2);
+  padding:10px;
+  background-color: #FFF;
+}
+.erm_menu p span {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+.erm_product_title {
+  font-size: 1.4rem;
+  font-family: 'Neucha';
+}
+.erm_menu .erm_section_title {
+  font-size: 3rem;
+  font-family: 'Neucha';
+  border-top: 4px solid #8d806f;
+  border-bottom: 4px solid #8d806f;
+}
+
+.nav-menu .current_page_item {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+// news page
+.news-container {
+  padding: 50px 0;
+  background-image: url("../images/papar_texture_thumb08.jpg");
+  border-top: 2px solid #897A69;
+  .news-row {
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 35px;
+    background-color: #FFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, .1);
+    @include border-bg;
+    .news-h1 {
+      font-weight: 500;
+      font-size: 2.7em;
+      font-family: "Neucha";
+      color: $text-color;
+      margin-bottom: 20px;
+    }
+    .news-p {
+      text-align: justify;
+      margin-top: 30px;
+    }
+    .news-hr {
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
+    .news-date {
+      text-align: center;
+      font-size: .9em;
+      color: lighten($base-color, 5%);
+    }
+    .wp-post-image {
+      display: block;
+      width: 100%;
+      height: 100%;
+      margin: 10px auto;
+      border-radius: 5px;
+    }
+  }
+}
+
+//news on main page
+.news-bg {
+  background-color: $base-color;
+  border-top: 2px solid #897A69;
+  border-bottom: 2px solid #897A69;
+}
+
+.news {
+  padding: 50px 0;
+  margin: 0 auto;
+  .news-article-h1 a {
+    color: $text-color;
+  }
+  .news-h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 2em;
+    a {
+      color: #FFF;
+      &:hover {
+        color: lighten($base-color, 20%);
+      }
+    }
+  }
+  .news-content {
+    margin-bottom: 40px;
+    .news-article {
+      @include border-bg;
+      box-shadow: 1px 1px 15px rgba(0, 0, 0, .1);
+      background-image: url("../images/papar_texture_thumb08.jpg");
+      padding: 20px;
+      .wp-post-image {
+        width: 100%;
+        height: 100%;
+        margin: 0 20px 5px 0;
+        border-radius: 5px;
+        &:hover {
+          -webkit-filter: opacity(.8);
+          filter: opacity(.8);
+          -webkit-transition: all .35s;
+          -moz-transition: all .35s;
+          transition: all .35s;
+        }
+      }
+      .news-article-date {
+        text-align: center;
+        font-size: .8em;
+        color: lighten($base-color, 5%);
+      }
+      .news-article-hr {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        clear: both;
+      }
+      .news-article-h1 {
+        font-weight: 500;
+        font-size: 1.7em;
+        font-family: 'Neucha';
+        text-align: center;
+        & a:hover {
+          color: lighten($base-color, 10%);
+        }
+      }
+    }
+  }
+}
+
+//news social link
+.social {
+  clear: both;
+  padding: 10px;
+  text-align: center;
+  h1 {
+    font-size: 1.7em;
+    color: #FFF;
+  }
+  a {
+    padding-right: 30px;
+    color: #FFF;
+    &:hover {
+      color: lighten($base-color, 20%);
+    }
+  }
+}
+
+.brush-bot {
+  border: 10px;
+  border-image: url("../images/border-top.png");
+}
+
+
