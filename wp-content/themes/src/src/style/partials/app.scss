@@ -256,7 +256,7 @@ footer::before {
   margin-top: -20px;
   width: 100%;
   height: 20px;
-  background: url("../img/bot_curve.png");
+  background-image: url("../img/bot_curve.png");
 }
 
 .footer-wrapper {
@@ -370,6 +370,9 @@ footer::before {
 }
 
 // contacts page
+.contacts {
+  margin-bottom: 3em;
+}
 
 .contacts h1 {
   text-align: center;
@@ -386,12 +389,52 @@ footer::before {
   font-weight: bold;
 }
 
-//single post
-
-.single {
-
+.wpcf7-textarea,
+.wpcf7-email {
+  width: 100%;
 }
 
+.btn-contacts {
+  margin-top: 1em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  width: 114px;
+  height: 31px;
+
+  font-family: $main-font-family-bold;
+  color: white;
+  background: $brand-orange;
+
+  border:none;
+  mask: url(../img/svg/btn.svg#btn);
+}
+
+.btn-contacts:hover, .btn-contacts:focus {
+    background: $brand-green;
+    transition: all 0.33s ease;
+}
+
+#map {
+  margin: 2em 0;
+}
+
+//single post
+.single-news {
+  padding: 100px 15px 0;
+}
+
+.single-img img {
+  text-align: center;
+  max-height: 500px;
+  margin: 2em 0;
+}
+
+.single-date {
+  font-family: $main-font-family-bold;
+  text-transform: uppercase;
+}
 
 
 
