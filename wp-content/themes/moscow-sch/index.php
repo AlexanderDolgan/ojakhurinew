@@ -1,5 +1,8 @@
 <? get_header(); ?> <!--include header.php-->
-
+<p>index.php</p>
+<p>index.php</p>
+<p>index.php</p>
+<p>index.php</p>
 <?php if (have_posts()) :
     while (have_posts()) : the_post();
 

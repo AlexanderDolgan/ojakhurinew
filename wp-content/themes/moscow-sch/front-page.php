@@ -1,5 +1,7 @@
 <? get_header(); ?> <!--include header.php-->
-
+<p>front-page.php</p>
+<p>front-page.php</p>
+<p>front-page.php</p>
 <!--hero image and restaurant about-->
 <section class="hero container-fluid">
     <!--hero background image-->

@@ -1,5 +1,4 @@
 <? get_header(); ?> <!--include header.php-->
-
 <div class="container">
 	<?php
 	if ( have_posts() ) :

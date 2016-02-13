@@ -2,6 +2,7 @@
 
 
 <section class="news / container">
+<!--	if have main posts start standard wp loop-->
 	<?php if ( have_posts() ) :
 		while ( have_posts() ) :
 			the_post();
