@@ -43,6 +43,11 @@ p {
   margin: 0;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 //site header group - site logo, dropdown rest nav, main navigation
 header::after {
@@ -283,66 +288,130 @@ footer::before {
 // restaurant menu
 
 .sub-menu {
-  margin: 0;
-  padding: 50px 0 0 0;
-
-  list-style: none;
-  text-align: center;
-
+  padding-top: 4em;
 }
 
-.sub-menu li {
+.sub-menu .current_page_parent,
+.sub-menu .current_page_item,  {
+  text-decoration: underline;
+  color: $brand-bright-orange;
+}
+
+.sub-menu>ul{
+  display: table;
+  margin: 0 auto;
+}
+
+.sub-menu ul li{
   display: inline-block;
-
+  position: relative;
+  padding: 0 0.7em;
 }
 
-.sub-menu li a {
+.sub-menu ul li:hover {
+  text-decoration: underline;
+}
+
+.sub-menu ul a {
   display: block;
-  margin-right: 10px;
+  padding: 5px;
 
   font-family: $main-font-family-bold;
-  font-size: $font-size-base;
+  font-size: $font-size-large;
   text-transform: uppercase;
+}
+
+.sub-menu ul li ul {
+  display: none;
+  position: absolute;
+
+  background: $brand-bright-orange;
+}
+
+.sub-menu ul li ul li a{
+  display: block;
+  padding: 10px;
+
+  font-size: $font-size-base;
+}
+
+.sub-menu ul li:hover > ul {
+  display: block;
+  z-index: 1;
 }
 
 //rest menu block with items
 
-.rest-section {
-  margin-bottom: 50px;
-}
-
-.rest-section h1 {
+.erm_title {
   text-align: center;
   font-size: 5em;
 }
 
-.rest-section-item {
+.erm_desc {
+  text-align: center;
+}
+
+.erm_menu_content {
   position: relative;
-  height: 520px;
-  padding: 0 40px;
-  margin: 40px 0;
+  //height: 520px;
+  //padding: 0 40px;
+  //margin: 40px 0;
 }
 
-.rest-section-item img {
+.with_image {
+  min-height: 520px;
+}
+
+.no_image {
+  text-align: center;
+}
+
+.erm_section {
+  clear: both;
+  text-align: center;
+}
+
+.erm_wrapper {
+  position: relative;
   width: 100%;
-  height: 200px;
+  height: 250px;
+  overflow: hidden;
 }
 
-.rest-section-item p {
-  font-size: $font-size-large;
-  text-align: justify;
+.erm_product {
+  position: relative;
+  padding: 15px;
+  margin-bottom: 30px;
+  min-height: 500px;
 }
 
-.atr {
+.erm_product_image {
   position: absolute;
-  bottom: 0px;
-  font-weight: bold;
+  width: 105%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
 }
 
-.atr .price {
-  padding-left: 20px;
-  font-size: 1.1em;
+.erm_product_title {
+  font-size: 1.5em;
 }
+
+.erm_product_price {
+  //position: absolute;
+  //bottom: 0;
+  margin: 10px 0;
+}
+
+.erm_product_price .price {
+  padding-left: 10px;
+  font-weight: bold;
+
+}
+
+
 
 //*************** NEWS PAGE
 
@@ -387,6 +456,23 @@ footer::before {
 
 .contacts-info span {
   font-weight: bold;
+}
+
+.contacts-green-bottom {
+  background: $brand-green;
+  padding: 20px 0;
+}
+
+.contacts-green-bottom::before {
+  content:"";
+  position: absolute;
+  z-index: 10000;
+  margin-left: -15px;
+  margin-top: -40px;
+
+  width: 100%;
+  height: 20px;
+  background: url("../img/top_curve_green.png");
 }
 
 .wpcf7-textarea,
@@ -436,12 +522,46 @@ footer::before {
   text-transform: uppercase;
 }
 
+/******* GALLERY PAGE *****/
 
+.gallery-page-wrapper {
+  text-align: center;
 
+  background: $brand-green;
+  padding: 100px 0;
+}
 
+.dtour-link {
+    text-decoration: underline;
+}
 
+/***** KARAOKE *****/
 
+.page-id-1713 {
+  background: $brand-green;
+}
 
+.karaoke {
+  padding: 50px 0;
+}
 
+.wrapper-karaoke::after {
+  content:"";
+  position: absolute;
+  z-index: 10000;
+  margin-left: -15px;
+
+  width: 100%;
+  height: 20px;
+  background: url("../img/bot_curve_green.png");
+}
+
+.karaoke h1 {
+  text-align: center;
+}
+
+.karaoke .site-carousel {
+  margin: 1.8em 0;
+}
 
 

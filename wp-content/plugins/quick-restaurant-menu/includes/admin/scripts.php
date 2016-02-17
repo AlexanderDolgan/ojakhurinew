@@ -25,6 +25,7 @@ function erm_load_admin_scripts( $hook ) {
 
     $js_dir  = ERM_PLUGIN_URL . 'assets/js/';
     $css_dir = ERM_PLUGIN_URL . 'assets/css/';
+    $lib_dir = ERM_PLUGIN_URL . 'assets/libs/';
 
     // Use minified libraries if SCRIPT_DEBUG is turned off
     $suffix  = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? '' : '.min';
@@ -47,9 +48,18 @@ function erm_load_admin_scripts( $hook ) {
         // Sweetalert
         wp_enqueue_script( 'sweetalert', $js_dir.'sweetalert.min.js', array(), '1.0.0', true );
 
+        // Bootstrap
+        wp_enqueue_style( 'bootstrap', $lib_dir.'bootstrap/css/bootstrap.css' );
+        wp_enqueue_script( 'bootstrap', $lib_dir.'bootstrap/js/bootstrap.min.js', array('jquery'), '3.3.5', true );
+
+        // CKeditor
+        wp_enqueue_script( 'ckeditor', $lib_dir.'ckeditor2/ckeditor.js', array('jquery'), '2.0.0', true );
+        wp_enqueue_script( 'jq-ckeditor', $lib_dir.'ckeditor2/adapters/jquery.js', array('ckeditor'), '2.0.0', true );
+
         // Knockout
-        wp_enqueue_script( 'knockout', $js_dir.'knockout.min.js', array(), '3.3.0', true );
-        wp_enqueue_script( 'knockout-sortable', $js_dir.'knockout-sortable'.$suffix.'.js', array(), '0.11.0', true );
+        wp_enqueue_script( 'knockout', $js_dir.'knockout.min.js', array('jquery'), '3.3.0', true );
+        wp_enqueue_script( 'knockout-sortable', $js_dir.'knockout-sortable'.$suffix.'.js', array('knockout'), '0.11.0', true );
+        wp_enqueue_script( 'ko-modal', $js_dir.'ko-modal.js', array('knockout'), '1.0.0', true );
 
         // Media
         if( function_exists( 'wp_enqueue_media' ) && version_compare( $wp_version, '3.5', '>=' ) ) {

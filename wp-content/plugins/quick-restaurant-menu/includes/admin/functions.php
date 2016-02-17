@@ -100,6 +100,7 @@ function erm_get_menu_item_data( $id ) {
         }
 
         $prices = get_post_meta($id, '_erm_prices', true);
+        if (!$prices) $prices = array();
 
         return array(
             'id'            => intval($id),

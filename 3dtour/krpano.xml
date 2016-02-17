@@ -1,0 +1,341 @@
+﻿<krpano version="1.16" level="4" onstart="startup();">
+
+	<include url="%CURRENTXML%/skin/default.xml" />
+	<!--<layer name="editor" url="plugins/editor.swf" keep="true" />-->	
+	
+	<action name="startup">
+		loadscene(s1);
+		qtvr();
+		autorotate enabled="true" speed="2"
+	</action>
+	
+	
+	
+	
+	<!-- 
+		thumb.count  - Количество видимых превью
+		thumb.margin - Величина отступа между превью (px)
+		thumb.height - Высота превью (px) - ширина рассчитывается автоматически в соответствии с пропорциями
+		
+		hint.show    - Отображение текстовой подсказки с названием сцены
+		hint.font    - Шрифт
+		hint.weight  - Начертание (normal или bold)
+		hint.size    - Размер (В пунктах или пикселах - px, pt)
+		hint.color   - Цвет текста (только шестнадцатеричные значения)
+		hint.shadow  - Цвет тени (только шестнадцатеричные значения)
+		
+		head.alpha   - прозрачность подложки заголовка
+		head.color   - цвет полоски
+		head.order   - порядок отображения текста в заголовке (0 - вверху названия сцены, внизу названия группы; 1 - наоборот)
+		
+		tel.font     - шрифт контактного телефона в шапке
+		tel.code     - код оператора
+		tel.numb     - сам номер
+		tel.color    - цвет
+		
+		Правила создания групы сцен:
+		  1. Атрибут 'name' это абстрактная назва группы для работы кода. Но сомое название нигде не отображается.
+		  2. Оно может быть любим но должно начинатся с буквы и не повторятся.
+		  3. Атрибут 'title' содержит текст который выводится в шапке как название группы. Может быть любой и в любом регистре.
+	-->
+	
+	<skin
+		thumb.count="4" 
+		thumb.margin="10" 
+		thumb.height="70"
+		
+		hint.show="true" 
+		hint.font="verdana" 
+		hint.weight="bold" 
+		hint.size="12px" 
+		hint.color="ffffff" 
+		hint.shadow="000000" 
+		
+		head.alpha="0.5"
+		head.color="e1efff"
+		head.order="1"
+		
+		tel.font="times new roman"
+		tel.code="+7 (495)"
+		tel.numb="793 14 77"
+		tel.color="fff799"
+	>
+		<group name="x0" title="Ресторан `Оджахури`" />
+	</skin>
+	
+	
+	
+	<layer name="xxx" type="container" width="100%" height="100%" bgalpha="1" bgcolor="0xffffff" zorder="99" keep="true" >
+		<layer name="bhk" url="%CURRENTXML%/skin/logo2.png" align="center" enabled="false" onloaded="wait(2); tween(alpha, 0, 0.75,, tween(layer[xxx].bgalpha, 0, 1.5)); " />
+	</layer>
+	
+	<hotspot name="logo" url="%CURRENTXML%/skin/logo.png" distorted="true" atv="90" scale="0.7" keep="true" />
+		<plugin name="logo" url="skin/logo3.png" keep="true" align="lefttop" x="0" y="-30" width="50" height="100" handcursor="false" capture="false" />
+		<plugin name="logo" url="%CURRENTXML%/skin/logo3.png" keep="true" align="lefttop" x="0" y="-30" width="117" height="117" handcursor="false" capture="false" />
+	
+	
+	
+	
+	
+	
+	
+	
+	<scene name="s1" title="Входная группа" thumburl="pano/p1/thumb.jpg" group="0">
+		<view hlookat="-48.053871" vlookat="-14.46617" fov="79.787913" fovmax="110.0" 
+	      limitfov="false" stereographic="true" 
+	      />
+		<preview url="pano/p1/preview.jpg" />
+		<image>
+			<cube url="pano/p1/pano_%s.jpg" />
+			</image>
+		<autorotate enabled="true" speed="2" />
+		
+		<hotspot name="hs-1" url="skin/hs.png" 
+	         ath="-43.081151" atv="-0.417476" distorted="true" rx="0" ry="0" rz="0.504339" width="94" height="100" scale="0.55" 
+	         onover="tween(scale, 0.90, 0.35); text(get(scene[get(linke)].title)); hs();"
+	         onout="tween(scale, 0.55, 0.35); tween(layer[tooltip].alpha, 0, 0.5); hs();"
+	         onclick="lookto(get(ath), 0, 25, smooth(250, -250, 250)); loadscene(get(linke), null, MERGE, BLEND(1));"
+	         linke="s2"
+	         />
+
+
+		</scene>
+	
+	
+	<scene name="s2" title="Холл" thumburl="pano/p2/thumb.jpg" group="0">
+		<view hlookat="-415.101612" vlookat="2.262153" fov="75.0" fovmin="28.774897" fovmax="100.0" maxpixelzoom="2.00" 
+	      limitfov="false" stereographic="true" 
+	      />
+		<preview url="pano/p2/preview.jpg" />
+		<image>
+			<cube url="pano/p2/pano_%s.jpg" />
+			</image>
+		<autorotate enabled="true" speed="2" />
+		
+	<hotspot name="hs-1" url="skin/hs.png" 
+	         ath="-49.166618" atv="3.254677" distorted="true" rx="0" ry="0" rz="91.217614" width="94" height="100" scale="0.55" 
+	         onover="tween(scale, 0.90, 0.35); text(get(scene[get(linke)].title)); hs();"
+	         onout="tween(scale, 0.55, 0.35); tween(layer[tooltip].alpha, 0, 0.5); hs();"
+	         onclick="lookto(get(ath), 0, 25, smooth(250, -250, 250)); loadscene(get(linke), null, MERGE, BLEND(1));"
+	         linke="s3"
+	         />
+
+	<hotspot name="hs-2" url="skin/hs.png" 
+	         ath="154.981537" atv="8.81514" distorted="true" rx="0" ry="0" rz="85.986459" width="94" height="100" scale="0.55" 
+	         onover="tween(scale, 0.90, 0.35); text(get(scene[get(linke)].title)); hs();"
+	         onout="tween(scale, 0.55, 0.35); tween(layer[tooltip].alpha, 0, 0.5); hs();"
+	         onclick="lookto(get(ath), 0, 25, smooth(250, -250, 250)); loadscene(get(linke), null, MERGE, BLEND(1));"
+	         linke="s1"
+	         />
+			 
+			 <hotspot name="hs-3" url="skin/hs.png" 
+	         ath="74.680245" atv="-6.601381" distorted="true" rx="0" ry="0" rz="-92.3449" width="94" height="100" scale="0.55" 
+	         onover="tween(scale, 0.90, 0.35); text(get(scene[get(linke)].title)); hs();"
+	         onout="tween(scale, 0.55, 0.35); tween(layer[tooltip].alpha, 0, 0.5); hs();"
+	         onclick="lookto(get(ath), 0, 25, smooth(250, -250, 250)); loadscene(get(linke), null, MERGE, BLEND(1));"
+	         linke="s4"
+	         />
+
+	
+	</scene>
+	
+	<scene name="s3" title="Зал 1" thumburl="pano/p3/thumb.jpg" group="0">
+		<view hlookat="58.834645" vlookat="2.517547" fov="92.799014" fovmin="28.774897" fovmax="100.0" maxpixelzoom="2.00" 
+	      limitfov="false" stereographic="true" 
+	      />
+		<preview url="pano/p3/preview.jpg" />
+		<image>
+			<cube url="pano/p3/pano_%s.jpg" />
+			</image>
+		<autorotate enabled="true" speed="2" />
+		
+	<hotspot name="hs-1" url="skin/hs.png" 
+	         ath="223.089824" atv="2.355305" distorted="true" rx="0" ry="0" rz="-90.560481" width="94" height="100" scale="0.55" 
+	         onover="tween(scale, 0.90, 0.35); text(get(scene[get(linke)].title)); hs();"
+	         onout="tween(scale, 0.55, 0.35); tween(layer[tooltip].alpha, 0, 0.5); hs();"
+	         onclick="lookto(get(ath), 0, 25, smooth(250, -250, 250)); loadscene(get(linke), null, MERGE, BLEND(1));"
+	         linke="s2"
+	         />
+
+		</scene>
+	
+	<scene name="s4" title="Зал 2 (вид 1)" thumburl="pano/p4/thumb.jpg" group="0">
+		<view hlookat="294.062365" vlookat="12.704944" fov="75.0" fovmin="28.774897" fovmax="100.0" maxpixelzoom="2.00" 
+	      limitfov="false" stereographic="true" 
+	      />
+		<preview url="pano/p4/preview.jpg" />
+		<image>
+			<cube url="pano/p4/pano_%s.jpg" />
+			</image>
+		<autorotate enabled="true" speed="2" />
+		
+	<hotspot name="hs-2" url="skin/hs.png" 
+	         ath="-56.61016" atv="3.396659" distorted="true" rx="0" ry="0" rz="-89.368449" width="94" height="100" scale="0.55" 
+	         onover="tween(scale, 0.90, 0.35); text(get(scene[get(linke)].title)); hs();"
+	         onout="tween(scale, 0.55, 0.35); tween(layer[tooltip].alpha, 0, 0.5); hs();"
+	         onclick="lookto(get(ath), 0, 25, smooth(250, -250, 250)); loadscene(get(linke), null, MERGE, BLEND(1));"
+	         linke="s5"
+	         />
+
+	<hotspot name="hs-3" url="skin/hs.png" 
+	         ath="90.506235" atv="5.573722" distorted="true" rx="0" ry="0" rz="3.589421" width="94" height="100" scale="0.55" 
+	         onover="tween(scale, 0.90, 0.35); text(get(scene[get(linke)].title)); hs();"
+	         onout="tween(scale, 0.55, 0.35); tween(layer[tooltip].alpha, 0, 0.5); hs();"
+	         onclick="lookto(get(ath), 0, 25, smooth(250, -250, 250)); loadscene(get(linke), null, MERGE, BLEND(1));"
+	         linke="s6"
+	         />
+
+	<hotspot name="hs-1" url="skin/hs.png" 
+	         ath="219.826508" atv="4.862459" distorted="true" rx="0" ry="0" rz="114.903131" width="94" height="100" scale="0.55" 
+	         onover="tween(scale, 0.90, 0.35); text(get(scene[get(linke)].title)); hs();"
+	         onout="tween(scale, 0.55, 0.35); tween(layer[tooltip].alpha, 0, 0.5); hs();"
+	         onclick="lookto(get(ath), 0, 25, smooth(250, -250, 250)); loadscene(get(linke), null, MERGE, BLEND(1));"
+	         linke="s2"
+	         />
+			 
+			 <hotspot name="hs-4" url="skin/hs.png" 
+	         ath="170.198987" atv="5.428965" distorted="true" rx="0" ry="0" rz="2.27048" width="94" height="100" scale="0.55" 
+	         onover="tween(scale, 0.90, 0.35); text(get(scene[get(linke)].title)); hs();"
+	         onout="tween(scale, 0.55, 0.35); tween(layer[tooltip].alpha, 0, 0.5); hs();"
+	         onclick="lookto(get(ath), 0, 25, smooth(250, -250, 250)); loadscene(get(linke), null, MERGE, BLEND(1));"
+	         linke="s7"
+	         />
+
+	<hotspot name="hs-5" url="skin/hs.png" 
+	         ath="208.598932" atv="6.404362" distorted="true" rx="0" ry="0" rz="-0.339877" width="94" height="100" scale="0.55" 
+	         onover="tween(scale, 0.90, 0.35); text(get(scene[get(linke)].title)); hs();"
+	         onout="tween(scale, 0.55, 0.35); tween(layer[tooltip].alpha, 0, 0.5); hs();"
+	         onclick="lookto(get(ath), 0, 25, smooth(250, -250, 250)); loadscene(get(linke), null, MERGE, BLEND(1));"
+	         linke="s8"
+	         />
+
+			 
+			
+		</scene>
+	
+	
+	<scene name="s5" title="Зал 2 (вид 2)" thumburl="pano/p5/thumb.jpg" group="0">
+		<view hlookat="108.622746" vlookat="15.326492" fov="85.0" fovmin="28.774897" fovmax="100.0" maxpixelzoom="2.00" 
+	      limitfov="false" stereographic="true" 
+	      />
+		<preview url="pano/p5/preview.jpg" />
+		<image>
+			<cube url="pano/p5/pano_%s.jpg" />
+			</image>
+		<autorotate enabled="true" speed="2" />
+		
+		
+		
+	<hotspot name="hs-3" url="skin/hs.png" 
+	         ath="-64.630673" atv="4.448498" distorted="true" rx="0" ry="0" rz="0.792305" width="94" height="100" scale="0.55" 
+	         onover="tween(scale, 0.90, 0.35); text(get(scene[get(linke)].title)); hs();"
+	         onout="tween(scale, 0.55, 0.35); tween(layer[tooltip].alpha, 0, 0.5); hs();"
+	         onclick="lookto(get(ath), 0, 25, smooth(250, -250, 250)); loadscene(get(linke), null, MERGE, BLEND(1));"
+	         linke="s6"
+	         />
+
+	<hotspot name="hs-2" url="skin/hs.png" 
+	         ath="-50.500505" atv="10.034691" distorted="true" rx="0" ry="0" rz="0.080447" width="94" height="100" scale="0.55" 
+	         onover="tween(scale, 0.90, 0.35); text(get(scene[get(linke)].title)); hs();"
+	         onout="tween(scale, 0.55, 0.35); tween(layer[tooltip].alpha, 0, 0.5); hs();"
+	         onclick="lookto(get(ath), 0, 25, smooth(250, -250, 250)); loadscene(get(linke), null, MERGE, BLEND(1));"
+	         linke="s4"
+	         />
+			 
+			 <hotspot name="hs-4" url="skin/hs.png" 
+	         ath="-39.347805" atv="4.144138" distorted="true" rx="0" ry="0" rz="8.764482" width="94" height="100" scale="0.55" 
+	         onover="tween(scale, 0.90, 0.35); text(get(scene[get(linke)].title)); hs();"
+	         onout="tween(scale, 0.55, 0.35); tween(layer[tooltip].alpha, 0, 0.5); hs();"
+	         onclick="lookto(get(ath), 0, 25, smooth(250, -250, 250)); loadscene(get(linke), null, MERGE, BLEND(1));"
+	         linke="s7"
+	         />
+
+	<hotspot name="hs-5" url="skin/hs.png" 
+	         ath="45.45935" atv="6.373328" distorted="true" rx="0" ry="0" rz="2.865433" width="94" height="100" scale="0.55" 
+	         onover="tween(scale, 0.90, 0.35); text(get(scene[get(linke)].title)); hs();"
+	         onout="tween(scale, 0.55, 0.35); tween(layer[tooltip].alpha, 0, 0.5); hs();"
+	         onclick="lookto(get(ath), 0, 25, smooth(250, -250, 250)); loadscene(get(linke), null, MERGE, BLEND(1));"
+	         linke="s8"
+	         />
+		</scene>
+	
+	<scene name="s6" title="Зал 3" thumburl="pano/p6/thumb.jpg" group="0">
+		<view hlookat="89.351751" vlookat="14.672155" fov="85.0" fovmin="28.774897" fovmax="100.0" maxpixelzoom="2.00" 
+	      limitfov="false" stereographic="true" 
+	      />
+		<preview url="pano/p6/preview.jpg" />
+		<image>
+			<cube url="pano/p6/pano_%s.jpg" />
+			</image>
+		<autorotate enabled="true" speed="2" />
+		
+	<hotspot name="hs-1" url="skin/hs.png" 
+	         ath="201.138908" atv="4.989906" distorted="true" rx="0" ry="0" rz="89.342642" width="94" height="100" scale="0.55" 
+	         onover="tween(scale, 0.90, 0.35); text(get(scene[get(linke)].title)); hs();"
+	         onout="tween(scale, 0.55, 0.35); tween(layer[tooltip].alpha, 0, 0.5); hs();"
+	         onclick="lookto(get(ath), 0, 25, smooth(250, -250, 250)); loadscene(get(linke), null, MERGE, BLEND(1));"
+	         linke="s4"
+	         />
+
+		</scene>	 
+		
+	<scene name="s7" title="Зал 4" thumburl="pano/p7/thumb.jpg" group="0">
+		<view hlookat="-95.057918" vlookat="5.384294" fov="85.0" fovmin="28.774897" fovmax="100.0" maxpixelzoom="2.00" 
+	      limitfov="false" stereographic="true" 
+	      />
+		<preview url="pano/p7/preview.jpg" />
+		<image>
+			<cube url="pano/p7/pano_%s.jpg" />
+			</image>
+		<autorotate enabled="true" speed="2" />
+	<hotspot name="hs-1" url="skin/hs.png" 
+	         ath="257.662574" atv="3.57906" distorted="true" rx="0" ry="0" rz="1.904591" width="94" height="100" scale="0.55" 
+	         onover="tween(scale, 0.90, 0.35); text(get(scene[get(linke)].title)); hs();"
+	         onout="tween(scale, 0.55, 0.35); tween(layer[tooltip].alpha, 0, 0.5); hs();"
+	         onclick="lookto(get(ath), 0, 25, smooth(250, -250, 250)); loadscene(get(linke), null, MERGE, BLEND(1));"
+	         linke="s4"
+	         />
+
+	
+
+		</scene>	 
+		
+<scene name="s8" title="Зал 5" thumburl="pano/p8/thumb.jpg" group="0">
+		<view hlookat="368.262649" vlookat="9.334802" fov="75.0" fovmin="28.774897" fovmax="100.0" maxpixelzoom="2.00" 
+	      limitfov="false" stereographic="true" 
+	      />
+		<preview url="pano/p8/preview.jpg" />
+		<image>
+			<cube url="pano/p8/pano_%s.jpg" />
+			</image>
+		<autorotate enabled="true" speed="2" />
+	<hotspot name="hs-1" url="skin/hs.png" 
+	         ath="158.945544" atv="1.493712" distorted="true" rx="0" ry="0" rz="-90.52763" width="94" height="100" scale="0.55" 
+	         onover="tween(scale, 0.90, 0.35); text(get(scene[get(linke)].title)); hs();"
+	         onout="tween(scale, 0.55, 0.35); tween(layer[tooltip].alpha, 0, 0.5); hs();"
+	         onclick="lookto(get(ath), 0, 25, smooth(250, -250, 250)); loadscene(get(linke), null, MERGE, BLEND(1));"
+	         linke="s4"
+	         />
+
+	
+
+		</scene>	 
+		
+
+	
+	
+	
+	
+	
+	
+	
+	<style name="hs" 
+			url="skin/hs.png" 
+			distorted="true"
+			scale="0.55"
+			onclick="lookto(get(ath), 0, 25, smooth(250, -250, 250)); loadscene(get(linke), null, MERGE, BLEND(1));" 
+			onover="tween(scale, 0.90, 0.35); text(get(scene[get(linke)].title)); hs();"
+			onout="tween(scale, 0.55, 0.35); tween(layer[tooltip].alpha, 0, 0.5); hs();"
+	/>
+
+</krpano>

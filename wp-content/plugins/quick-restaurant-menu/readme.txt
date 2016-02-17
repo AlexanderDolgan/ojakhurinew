@@ -3,9 +3,9 @@ Contributors: AlejandroPascual
 Donate link: http://thingsforrestaurants.com
 Plugin URL: http://thingsforrestaurants.com
 Requires at Least: 3.5
-Tested Up To: 4.3
+Tested Up To: 4.4
 Tags: menu, restaurant, restaurant menu, food, drink, dining, cafe, coffee, cuisine
-Stable tag: 1.3
+Stable tag: 1.5.0
 License: GPLv2 or later
 
 Create easily restaurant menus with drag and drop. Display different menus for each day of the week and for different hours in the same day.
@@ -30,6 +30,7 @@ The plugin uses default WordPress functionality. Creates two new post types, Men
 = Demo =
 
 [Example Menu](http://thingsforrestaurants.com)
+[Video create a menu](http://screencast-o-matic.com/watch/cDVubqh7UT)
 
 = How to use =
 
@@ -37,9 +38,21 @@ Add the shortcode of the menu in any existing post or page:
 
 `[erm_menu id=123]`
 
+If you want to hide the thumbnails:
+
+`[erm_menu id=123 thumb=no]`
+
+If you want the price below the description:
+
+`[erm_menu id=123 price=bottom]`
+
 Define a variable menu combining different menus. Insert the shortcode in the page:
 
 `[erm_menu_week id=123]`
+
+You can also define thumb and price attributes in the shortcode:
+
+`[erm_menu_week id=123 price=bottom thumb=no]`
 
 = Translations =
 
@@ -115,6 +128,20 @@ You can use the support tab here, or visit the [plugin website](http://thingsfor
 6. Variable menu interface
 
 == Changelog ==
+
+= 1.5.0 =
+* Interface for editing menu item changed
+
+= 1.4.2 =
+* Fixed small bug in template for section
+
+= 1.4.1 =
+* Fixed small bug in template
+
+= 1.4 =
+* Fixed bug with prices
+* Shortcode allow hide thumbnails
+* Shortcode allow prices position (top, bottom)
 
 = 1.3 =
 * Fixed bug with WP 4.3

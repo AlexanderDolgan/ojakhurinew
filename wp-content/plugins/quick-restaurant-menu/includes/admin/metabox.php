@@ -62,7 +62,7 @@ function erm_render_menu_meta_box() {
  * @param $post_id
  */
 function erm_render_menu_items( $post_id ) {
-    include ERM_PLUGIN_DIR.'/templates/metabox-menu-items.php';
+    include ERM_PLUGIN_DIR.'/includes/admin/templates/metabox-menu-items.php';
 }
 add_action( 'erm_meta_box_menu_items', 'erm_render_menu_items', 10 );
 
@@ -185,7 +185,7 @@ function erm_render_menu_week_meta_box() {
  * @param $post_id
  */
 function erm_render_menu_week_rules( $post_id ){
-    include ERM_PLUGIN_DIR.'/templates/metabox-menu-week.php';
+    include ERM_PLUGIN_DIR.'/includes/admin/templates/metabox-menu-week.php';
 }
 add_action('erm_render_menu_week_meta_box','erm_render_menu_week_rules');
 

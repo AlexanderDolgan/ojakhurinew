@@ -1,7 +1,4 @@
 <? get_header(); ?> <!--include header.php-->
-<p>front-page.php</p>
-<p>front-page.php</p>
-<p>front-page.php</p>
 <!--hero image and restaurant about-->
 <section class="hero container-fluid">
     <!--hero background image-->
@@ -15,7 +12,7 @@
             <?php
 
             // The Query
-            $args = array( 'post_type' => 'structure_page', 'p' => 1154 );
+            $args = array( 'post_type' => 'structure_page', 'p' => 1702 );
             $the_query = new WP_Query( $args );
 
             // The Loop
@@ -147,41 +144,30 @@ wp_reset_postdata();
 
 
 <!--gallery section-->
+
 <section class="gallery-wrapper container-fluid">
     <div class="container gallery">
         <div class="row">
+            <h1>НОВОСТИ</h1>
+<!--            start news query $post_per_page = 2 parameter-->
+            <?php
+                $news_posts = new WP_Query('posts_per_page=2');
+                if ($news_posts->have_posts()) :
+                    while ($news_posts->have_posts()) : $news_posts->the_post();
+                   ?>
+
             <div class="left col-md-6">
                 <div class="gal-item">
-                    <a href="">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/mainpagegallery/dishes6.jpg" alt="">
 
-                        <h2>Основной зал</h2>
-                    </a>
-                </div>
-                <div class="gal-item">
-                    <a href="">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/mainpagegallery/dishes6.jpg" alt="">
+                        <?php the_post_thumbnail('medium_large'); ?>
 
-                        <h2>V.I.P. зал</h2>
+                    <a href="<?php the_permalink()?>">
+                        <h3><?php the_title(); ?></h3>
                     </a>
                 </div>
             </div>
-            <div class="right col-md-6">
-                <div class="gal-item">
-                    <a href="">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/mainpagegallery/dishes6.jpg" alt="">
-
-                        <h2>Грузинский зал</h2>
-                    </a>
-                </div>
-                <div class="gal-item">
-                    <a href="">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/mainpagegallery/dishes6.jpg" alt="">
-
-                        <h2>Веранда</h2>
-                    </a>
-                </div>
-            </div>
+            <?php endwhile; endif; wp_reset_query();
+            ?>
         </div>
     </div>
 </section>

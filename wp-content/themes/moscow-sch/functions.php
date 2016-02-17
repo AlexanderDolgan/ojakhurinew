@@ -352,3 +352,20 @@ function wpdocs_post_image_html( $html, $post_id, $post_image_id ) {
 	return $html;
 }
 add_filter( 'post_thumbnail_html', 'wpdocs_post_image_html', 10, 3 );
+
+//Get top ancestor for menu navigation
+
+function get_top_ancestor_id() {
+
+	global $post;
+
+	if ( $post->post_parent ) {
+		$ancestors = array_reverse( get_post_ancestors( $post->ID ) );
+
+		return $ancestors[0];
+	}
+
+	return $post->ID;
+}
+
+

@@ -5,7 +5,7 @@
  * Description: Create Restaurants Menus
  * Author: Alejandro Pascual
  * Author URI: http://thingsforrestaurants.com
- * Version: 1.3
+ * Version: 1.5.0
  * Text Domain: erm
  * Domain Path: languages
  *
@@ -25,7 +25,7 @@
  * @package ERM
  * @category Core
  * @author Alejandro Pascual
- * @version 1.3
+ * @version 1.5.0
  */
 
 // Exit if accessed directly

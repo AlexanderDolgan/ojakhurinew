@@ -51,6 +51,30 @@ jQuery(document).ready(function($){
         }
     }
 
+    ko.bindingHandlers.ckEditor = {
+
+        init: function( element, valueAccessor ) {
+
+            var value = ko.utils.unwrapObservable(valueAccessor());
+            element.innerHTML = value;
+            CKEDITOR.config.resize_enabled = false;
+            //CKEDITOR.config.removeButtons = 'Cut,Copy,Paste,PasteText,PasteFromWord,Undo,Redo,Anchor,Underline,Strike,Subscript,Superscript,addFile,Image,Table,Styles,Format,Maximize,HorizontalRule,Unlink,Blockquote,Indent,Outdent,RemoveFormat,Source,Spell';
+            CKEDITOR.config.removePlugins = 'save,print,preview,find,about,maximize,showblocks,image,scayt';
+            $(element).ckeditor();
+            var id = $(element).attr('id');
+            var editor = CKEDITOR.instances[id];
+
+            editor.on('change', function( data ){
+                //console.log( editor.getData() );
+                valueAccessor()( editor.getData() );
+            });
+
+        },
+        update: function( element, valueAccessor ) {
+
+        }
+    }
+
 
 
 
@@ -175,7 +199,7 @@ jQuery(document).ready(function($){
         // Product vivible
         self.visible = ko.observable( el.visible==1 ? true : false );
         self.visible_css = ko.computed( function(){
-           return self.visible() ? 'fa-eye' : 'fa-eye-slash';
+            return self.visible() ? 'fa-eye' : 'fa-eye-slash';
         });
         self.toggle_visible = function(){
             self.visible( !self.visible() );
@@ -199,7 +223,8 @@ jQuery(document).ready(function($){
 
         //Prices
         self.prices = ko.observableArray([]);
-        if (el.prices.length) {
+        if ( null !== el.prices && el.prices.length) {
+            //if ( el.prices.length) {
             jQuery.each(el.prices, function(index, item){
                 self.prices.push({
                     name: item.name,
@@ -240,7 +265,6 @@ jQuery(document).ready(function($){
                 });
             }
 
-
             self.requesting = jQuery.post(ajaxurl, data, function(response){
                 if (response.success) {
                 }
@@ -254,6 +278,40 @@ jQuery(document).ready(function($){
             self.visible.subscribe( self.save );
             self.title.subscribe( self.save );
         }, 100);
+
+        // Popup editor - new
+        self.popup_editor = function(){
+
+            koModal.showModal({
+                template: 'dialogMenuItem',
+                viewModel: new ModelDialogMenuItem( self.type, self.title(), self.content(), {
+                    id: self.image_id(),
+                    title: self.image_title(),
+                    desc: self.image_desc(),
+                    src_thumb: self.src_thumb(),
+                    src_big: self.src_big()
+                }, self.prices() )
+            }).done(function(result){
+
+                //console.log( result );
+
+                self.title( result.title );
+                self.content( result.content );
+                self.image_id( result.image.id );
+                self.image_title( result.image.title );
+                self.image_desc( result.image.desc );
+                self.src_thumb( result.image.src_thumb );
+                self.src_big( result.image.src_big );
+
+                //console.log( self.prices() );
+                self.prices( result.prices );
+                //console.log( self.prices() );
+
+                self.save();
+            });
+
+
+        };
     }
 
     function MenuCarta( el ) {
@@ -267,9 +325,9 @@ jQuery(document).ready(function($){
         };
         self.menu_items = ko.observableArray( [] );
 
-        if (el.menu_items.length) {
+        if ( null !== el.menu_items && el.menu_items.length) {
             jQuery.each( el.menu_items, function(index,item) {
-                console.log(item);
+                //console.log(item);
                 self.menu_items.push( new MenuCarta_item( self.id, item, self.spin ) );
             } );
         }
@@ -294,9 +352,12 @@ jQuery(document).ready(function($){
 
                     var newitem = new MenuCarta_item( self.id, response.data, self.spin );
                     self.menu_items.push( newitem );
-                    newitem.editing(true);
 
+                    //newitem.editing(true);
                     setTimeout( self.save, 100 );
+
+                    // Open popup to edit the menu item
+                    newitem.popup_editor();
 
                 } else {
                     alert('Error');
@@ -315,7 +376,28 @@ jQuery(document).ready(function($){
 
         self.removeitem = function( item ){
 
-            sweetAlert({
+            koModal.showModalConfirm( 'Are you sure to delete this item ?', 'YES', 'NO', '#eaeaea'  )
+                .done( function( response ) { if ( response ) {
+
+                    var item_id = item.id;
+
+                    if ( self.requesting ) { self.requesting.abort(); }
+                    self.spin(true);
+                    var data = {
+                        action: 'erm_delete_menu_item',
+                        post_id: item_id
+                    }
+                    self.requesting = jQuery.post(ajaxurl, data, function(response){
+                        self.spin(false);
+                        if (response.success) {
+                            self.menu_items.remove( item );
+                            setTimeout( self.save, 100 );
+                        }
+                    });
+
+                } } );
+
+            /*sweetAlert({
                 title: erm_vars.notices.alert_delete,
                 type: 'warning',
                 showCancelButton: true,
@@ -340,11 +422,12 @@ jQuery(document).ready(function($){
                     }
                 });
             });
+            */
 
         };
 
         self.add_existingitem = function(){
-          alert('Add existing Menu Item');
+            alert('Add existing Menu Item');
         };
 
         self.ordenitems = function(){
