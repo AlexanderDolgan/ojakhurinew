@@ -1,0 +1,31 @@
+
+//Colors
+$brand-bright-orange: #ffe0af;
+$brand-orange: #d28754;
+$brand-green: #afd2c2;
+$text-color: black;
+
+$link-color: $text-color;
+$link-hover-color: #d28754;
+
+//Type
+
+$header-font-family: 'Kazimir', serif;
+$main-font-family: 'Circe', sans-serif;
+$main-font-family-bold: 'Circe-Bold', sans-serif;
+
+$font-size-base: 14px;
+$font-size-large: ceil(($font-size-base * 1.25));// ~18px
+$font-size-small: ceil(($font-size-base * 0.85));// ~12px
+
+$font-size-brand: floor(($font-size-base * 4));
+$font-size-h1: floor(($font-size-base * 3.4)); // ~48px
+$font-size-h2: floor(($font-size-base * 2.6)); // ~36px
+$font-size-h3: ceil(($font-size-base * 1.7)); // ~24px
+$font-size-h4: ceil(($font-size-base * 1.25)); // ~18px
+$font-size-h5: $font-size-base;
+$font-size-h6: ceil(($font-size-base * 0.85)); // ~12px
+
+$line-height-base: 1.4;
+
+$line-height-computed: floor(($font-size-base * $line-height-base)); // ~20px

@@ -1,0 +1,58 @@
+<!--site footer-->
+<footer class="container-fluid footer-wrapper">
+	<section class="site-footer container">
+		<div class="row">
+			<div class="col-md-4">
+				<p>Ждем вас в семейном ресторане «Оджахури» г. Москва, Садовая-Черногрязская, 22, стр.1</p>
+				<p>Режим работы: 12:00 — 00:00</p>
+				<br>
+				<p class="copyright">2013 — 2016 © Оджахури</p>
+			</div>
+			<div class="phone col-md-3">
+				<a href="tel:+74956216002">+7 495 621-60-02</a>
+				<a href="mailto:ojakhuri@mail.ru">ojakhuri@mail.ru</a>
+			</div>
+			<div class="logo-footer col-md-offset-2 col-md-3">
+				<a href="<?php echo network_home_url(); ?>"><img src="<?php echo get_template_directory_uri();?>/img/svg/logo-vert.svg" alt="логотип Оджахури"></a>
+			</div>
+		</div>
+
+	</section>
+
+</footer>
+</header>
+</section>
+</main>
+
+</div>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+	(function (d, w, c) {
+		(w[c] = w[c] || []).push(function() {
+			try {
+				w.yaCounter31204916 = new Ya.Metrika({id:31204916,
+					clickmap:true,
+					accurateTrackBounce:true,
+					trackHash:true});
+			} catch(e) { }
+		});
+
+		var n = d.getElementsByTagName("script")[0],
+			s = d.createElement("script"),
+			f = function () { n.parentNode.insertBefore(s, n); };
+		s.type = "text/javascript";
+		s.async = true;
+		s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+		if (w.opera == "[object Opera]") {
+			d.addEventListener("DOMContentLoaded", f, false);
+		} else { f(); }
+	})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/31204916" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<?php wp_footer(); ?>
+
+</body>
+</html>

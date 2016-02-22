@@ -17,36 +17,36 @@ var gulp = require('gulp'),
 
 var path = {
     build: { //to
-        html: 'build/',
-        js: 'build/js/',
-        css: 'build/css/',
-        img: 'build/img/',
-        svg: 'build/img/',
-        fonts: 'build/fonts/'
+        html: 'build-title/',
+        js: 'build-title/js/',
+        css: 'build-title/css/',
+        img: 'build-title/img/',
+        svg: 'build-title/img/',
+        fonts: 'build-title/fonts/'
     },
     src: { //from
-        html: 'src/*.html',
-        js: 'src/js/main.js',
-        style: 'src/style/main.scss',
-        img: 'src/img/**/*.*',
-        svg: 'src/img/**/*.svg',
-        fonts: 'src/fonts/**/*.*'
+        html: 'src-title/*.html',
+        js: 'src-title/js/main.js',
+        style: 'src-title/style/main.scss',
+        img: 'src-title/img/**/*.*',
+        svg: 'src-title/img/**/*.svg',
+        fonts: 'src-title/fonts/**/*.*'
     },
     watch: {
-        html: 'src/**/*.html',
-        js: 'src/js/**/*.js',
-        style: 'src/style/**/*.scss',
-        img: 'src/img/**/*.*',
-        svg: 'src/img/**/*.svg',
-        fonts: 'src/img/**/*.*',
-        sprite: 'src/sprites/*.png'
+        html: 'src-title/**/*.html',
+        js: 'src-title/js/**/*.js',
+        style: 'src-title/style/**/*.scss',
+        img: 'src-title/img/**/*.*',
+        svg: 'src-title/img/**/*.svg',
+        fonts: 'src-title/img/**/*.*',
+        sprite: 'src-title/sprites/*.png'
     },
-    clean: './build'
+    clean: './build-title'
 };
 
 var config = {
     server: {
-        baseDir: "./build"
+        baseDir: "./build-title"
     },
     tunnel: true,
     host: 'localhost',
@@ -101,13 +101,13 @@ gulp.task('svg:build', function() {
 });
 
 gulp.task('sprite:build', function () {
-    var spriteData = gulp.src('src/sprites/*.png').pipe(spritesmith({
+    var spriteData = gulp.src('src-title/sprites/*.png').pipe(spritesmith({
         imgName: 'sprite.png',
         imgPath: '../img/sprites/sprite.png',
         cssName: '../../style/partials/_sprite.scss',
         padding: 20
     }));
-    return spriteData.pipe(gulp.dest('src/img/sprites'));
+    return spriteData.pipe(gulp.dest('src-title/img/sprites'));
 });
 
 gulp.task('fonts:build', function() {
