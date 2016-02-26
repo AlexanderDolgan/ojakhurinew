@@ -1,5 +1,5 @@
 <? get_header(); ?> <!--include header.php-->
-<p>test</p>
+
 <div class="container">
 	<?php
 	if ( have_posts() ) :

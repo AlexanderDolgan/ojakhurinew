@@ -15,8 +15,8 @@
 					   aria-haspopup="true" aria-expanded="false">Москва<span
 							class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="/korolev">Химки</a></li>
-						<li><a href="/sch">Королев</a></li>
+						<li><a href="/korolev">Королев</a></li>
+						<li><a href="/khimki">Химки</a></li>
 					</ul>
 				</li>
 			</ul>

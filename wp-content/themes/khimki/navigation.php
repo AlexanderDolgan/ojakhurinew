@@ -12,11 +12,11 @@
 			<ul class="rest-name">
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-					   aria-haspopup="true" aria-expanded="false">Москва<span
+					   aria-haspopup="true" aria-expanded="false">Химки<span
 							class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="/korolev">Химки</a></li>
-						<li><a href="/sch">Королев</a></li>
+						<li><a href="/korolev">Королев</a></li>
+						<li><a href="/moscow">Москва</a></li>
 					</ul>
 				</li>
 			</ul>

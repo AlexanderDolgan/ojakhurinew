@@ -4,7 +4,7 @@
 	<div class="container / karaoke">
 		<!--Start Query for page index.php / custom_pages -> Контакты-->
 		<?php
-		$args      = array( 'post_type' => 'structure_page', 'p' => 1699 );
+		$args      = array( 'post_type' => 'structure_page', 'p' => 1626 );
 		$the_query = new WP_Query( $args ); ?>
 
 		<?php if ( $the_query->have_posts() ) : ?>

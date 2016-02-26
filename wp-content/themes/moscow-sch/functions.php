@@ -182,6 +182,12 @@ $meta_fields = array(
 		'id'    => 'text_area5',  // даем идентификатор.
 		'type'  => 'textarea'  // Указываем тип поля.
 	),
+	array(
+		'label' => 'Текстовое поле 6',
+		'desc'  => 'Описание для поля.',
+		'id'    => 'text_area6',  // даем идентификатор.
+		'type'  => 'textarea'  // Указываем тип поля.
+	),
 	//carousel
 	array(
 		'label' => 'галерея 1',

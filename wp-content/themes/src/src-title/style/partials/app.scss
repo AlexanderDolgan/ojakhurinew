@@ -12,6 +12,8 @@ body {
   -webkit-font-smoothing: antialiased;
 
   line-height: $line-height-base;
+
+  background-color: $brand-green;
 }
 
 a {
@@ -49,58 +51,51 @@ ul {
   list-style: none;
 }
 
-//site header group - site logo, dropdown rest nav, main navigation
-header::after {
-  content:"";
-  position: absolute;
-  margin-left: -15px;
-  margin-top: 20px;
-  width: 100%;
-  height: 20px;
-  background: url("../img/top_curve.png");
-}
+.title-content-container {
+  position: relative;
+  height: 100vh;
 
-.site-header {
-  min-height: 100px;
-  padding: 30px 0;
-
-  font-family: $main-font-family-bold;
-  font-size: 1.1em;
-
-  background: $brand-bright-orange;
-}
-
-//logotype
-.logo {
-  display: block;
-  padding-top: 10px;
-
-  min-width: 220px;
-}
-
-.hero::after {
-  content:"";
-  position: absolute;
-  z-index: 10000;
-  margin-left: -15px;
-
-  width: 100%;
-  height: 20px;
-  background: url("../img/bot_curve_green.png");
-}
-
-//title top
-
-.wrapper {
+  text-align: center;
   background: url("../img/mainpagegallery/ojakhuri_01.jpg") no-repeat center;
   background-size: cover;
 }
 
+//logotype
+
+.title-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 50px;
+
+  max-width: 450px;
+
+  background-color: $brand-bright-orange;
+  mask: url(../img/svg/title.svg#btn) 0 0/100% 100%;
+}
+
+.logo-desc {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 700;
+
+}
+
+.title-content h3 {
+  margin-bottom: 0;
+
+}
+
+.title-content p {
+  text-align: center;
+  font-size: .9em;
+}
 // footer section - adress, phone
 footer::before {
   content:"";
   position: absolute;
-  margin-left: -15px;
+
   margin-top: -20px;
   width: 100%;
   height: 20px;
@@ -113,9 +108,9 @@ footer::before {
 
 .site-footer {
   padding: 100px;
-
   font-family: $main-font-family-bold;
 
+  text-align: center;
 }
 
 .copyright {
@@ -127,6 +122,16 @@ footer::before {
 }
 
 //*************** NEWS PAGE
+
+.news-bg::before {
+  content:"";
+  position: absolute;
+
+  margin-top: -20px;
+  width: 100%;
+  height: 20px;
+  background-image: url("../img/top_curve_green.png");
+}
 
 .news {
   padding: 100px 15px;
@@ -151,18 +156,12 @@ footer::before {
   font-size: $font-size-large;
 }
 
-//single post
-.single-news {
-  padding: 100px 15px 0;
+.excerpt {
+  text-decoration: underline;
+  font-weight: 700;
 }
 
-.single-img img {
-  text-align: center;
-  max-height: 500px;
-  margin: 2em 0;
-}
-
-.single-date {
-  font-family: $main-font-family-bold;
-  text-transform: uppercase;
+.excerpt:hover {
+  text-decoration: underline;
+  font-weight: 700;
 }

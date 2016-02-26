@@ -1,24 +1,53 @@
 <!--site footer-->
+
+
+<?php
+
+// The Query
+$args = array( 'post_type' => 'structure_page', 'p' => 1574 );
+$the_query = new WP_Query( $args );
+
+// The Loop
+if ( $the_query->have_posts() ) {
+
+while ( $the_query->have_posts() ) {
+$the_query->the_post(); ?>
+
 <footer class="container-fluid footer-wrapper">
 	<section class="site-footer container">
 		<div class="row">
 			<div class="col-md-4">
-				<p>Ждем вас в семейном ресторане «Оджахури» г. Москва, Садовая-Черногрязская, 22, стр.1</p>
-				<p>Режим работы: 12:00 — 00:00</p>
+				<p><?php echo get_post_meta( $post->ID, 'header2', true ) . ' ';
+					echo get_post_meta( $post->ID, 'text_area6', true );
+					echo get_post_meta( $post->ID, 'text_area2', true );?></p>
+				<p><?php echo get_post_meta( $post->ID, 'header1', true ) . '</br>';
+					echo get_post_meta( $post->ID, 'text_area1', true );?></p>
 				<br>
-				<p class="copyright">2013 — 2016 © Оджахури</p>
+				<p class="copyright">2013 — <?php echo date('Y');?> © Оджахури</p>
 			</div>
 			<div class="phone col-md-3">
-				<a href="tel:+74956216002">+7 495 621-60-02</a>
-				<a href="mailto:ojakhuri@mail.ru">ojakhuri@mail.ru</a>
+				<a href="tel:<?php echo get_post_meta( $post->ID, 'header3', true );?>"> <?php echo get_post_meta( $post->ID, 'text_area3', true );?></a>
+				<a href="mailto:<?php echo get_post_meta( $post->ID, 'text_area4' ,true); ?>"><?php echo get_post_meta( $post->ID, 'text_area4' ,true); ?></a>
 			</div>
 			<div class="logo-footer col-md-offset-2 col-md-3">
-				<a href="<?php echo network_home_url(); ?>"><img src="<?php echo get_template_directory_uri();?>/img/svg/logo-vert.svg" alt="логотип Оджахури"></a>
+				<a href="<?php echo network_home_url(); ?>"><img
+						src="<?php echo get_template_directory_uri(); ?>/img/svg/logo-vert.svg" alt="логотип Оджахури"></a>
 			</div>
 		</div>
 
 	</section>
+	<!--	End Loop-->
+	<?php
+	}
 
+	} else {
+		// no posts found
+	}
+	/* Restore original Post Data */
+	wp_reset_postdata();
+	?>
+
+	?>
 </footer>
 </header>
 </section>
@@ -28,28 +57,37 @@
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
 	(function (d, w, c) {
-		(w[c] = w[c] || []).push(function() {
+		(w[c] = w[c] || []).push(function () {
 			try {
-				w.yaCounter31204916 = new Ya.Metrika({id:31204916,
-					clickmap:true,
-					accurateTrackBounce:true,
-					trackHash:true});
-			} catch(e) { }
+				w.yaCounter31204916 = new Ya.Metrika({
+					id: 31204916,
+					clickmap: true,
+					accurateTrackBounce: true,
+					trackHash: true
+				});
+			} catch (e) {
+			}
 		});
 
 		var n = d.getElementsByTagName("script")[0],
 			s = d.createElement("script"),
-			f = function () { n.parentNode.insertBefore(s, n); };
+			f = function () {
+				n.parentNode.insertBefore(s, n);
+			};
 		s.type = "text/javascript";
 		s.async = true;
 		s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
 
 		if (w.opera == "[object Opera]") {
 			d.addEventListener("DOMContentLoaded", f, false);
-		} else { f(); }
+		} else {
+			f();
+		}
 	})(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript><div><img src="//mc.yandex.ru/watch/31204916" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript>
+	<div><img src="//mc.yandex.ru/watch/31204916" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
 <!-- /Yandex.Metrika counter -->
 
 <?php wp_footer(); ?>

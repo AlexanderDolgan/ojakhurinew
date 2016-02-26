@@ -3,7 +3,7 @@
 
 	<!--Start Query for page index.php / custom_pages -> Контакты-->
 	<?php
-	$args      = array( 'post_type' => 'structure_page', 'p' => 1701 );
+	$args      = array( 'post_type' => 'structure_page', 'p' => 1625 );
 	$the_query = new WP_Query( $args ); ?>
 
 	<?php if ( $the_query->have_posts() ) : ?>
@@ -16,7 +16,7 @@
 	<div class="row" id="map">
 		<!--header-->
 		<h1>Мы на карте:</h1>
-		<script src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=npElsc60P2O7fwi-pnx1Ymil6_HT6sIy&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor" type="text/javascript" charset="utf-8"></script>
+		<script src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=7XH1WB6uTD_c0chtiF-B3bqTVlY0ReB2&amp;width=100%&amp;height=450"></script>
 	</div>
 </div>
 <!--Phone / Adress / mail / mode-->

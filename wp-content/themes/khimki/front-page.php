@@ -12,7 +12,7 @@
             <?php
 
             // The Query
-            $args = array( 'post_type' => 'structure_page', 'p' => 1702 );
+            $args = array( 'post_type' => 'structure_page', 'p' => 1624 );
             $the_query = new WP_Query( $args );
 
             // The Loop
@@ -110,7 +110,7 @@
                     <h2><?php echo get_post_meta( $post->ID, 'header2', true ) ?></h2>
 
                     <p><?php echo get_post_meta( $post->ID, 'text_area2', true ) ?></p>
-                    <a href="#" class="btn">Меню</a>
+                    <a href="<?php echo bloginfo('url') . '/mainmenu' ?>" class="btn">Меню</a>
                 </div>
                 <div class="advant-item col-md-4">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/svg/hach.svg" alt="фирменная кулинария">
@@ -118,7 +118,7 @@
                     <h2><?php echo get_post_meta( $post->ID, 'header3', true ) ?></h2>
 
                     <p><?php echo get_post_meta( $post->ID, 'text_area3', true ) ?></p>
-                    <a href="#" class="btn">Контакты</a>
+<!--                    <a href="#" class="btn">Контакты</a>-->
                 </div>
                 <div class="advant-item col-md-4">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/svg/cake.svg" alt="банкеты и застолья">
@@ -126,7 +126,7 @@
                     <h2><?php echo get_post_meta( $post->ID, 'header4', true ) ?></h2>
 
                     <p><?php echo get_post_meta( $post->ID, 'text_area4', true ) ?></p>
-                    <a href="#" class="btn">Подробнее</a>
+                    <a href="<?php echo bloginfo('url') . '/banquet' ?>" class="btn">Подробнее</a>
                 </div>
             </div>
         </div>
