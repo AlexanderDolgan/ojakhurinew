@@ -1,29 +1,33 @@
 <? get_header(); ?> <!--include header.php-->
-<div class="container">
-	<?php
-	if ( have_posts() ) :
-		while ( have_posts() ) :
-			the_post()
-			?>
-			<div class="row / single-news">
-				<h1><?php the_title(); ?></h1>
+<div class="container-fluid / bnq">
+	<div class="container">
+		<?php
+		//The query
+		$args      = array( 'post_type' => 'structure_page', 'p' => '1627' );
+		$the_query = new WP_Query ( $args );
 
-				<p class="single-date"><?php the_date(); ?></p>
+		if ( $the_query->have_posts() ) :
+			while ( $the_query->have_posts() ) :
+				$the_query->the_post()
+				?>
+				<div class="row / single-news">
+					<h1><?php the_title(); ?></h1>
 
-				<div class="single-img">
-					<?php the_post_thumbnail( 'large' ) ?>
+					<p class="single-date"><?php the_date(); ?></p>
+
+
+					<p><?php the_content(); ?></p>
+
 				</div>
-
-				<p><?php the_content(); ?></p>
-
-			</div>
-			<?php
-		endwhile;
-	else:
-		echo 'sorry but we can\'t find any post\'s';
-	endif;
-	?>
+				<?php
+			endwhile;
+		else:
+			echo 'Test';
+		endif;
+		/* Restore original Post Data */
+		wp_reset_postdata();
+		?>
+	</div>
 </div>
-
 
 <?php get_footer(); ?> <!--include footer.php -->

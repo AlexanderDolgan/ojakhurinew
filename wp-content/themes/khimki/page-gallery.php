@@ -3,6 +3,7 @@
 <section class="gallery-page-wrapper">
     <div class="container-fluid">
         <div class="row">
+            <a href="http://www.ojakhuri.ru/Khimki3dtour/index.html" target="_blank"><h1 class="dtour-link">3D ТУР</h1></a>
             <h1>ИНТЕРЬЕР</h1>
             <div>
                 <?php echo do_shortcode('[Best_Wordpress_Gallery id="1" gal_title="Интерьер"]'); ?>

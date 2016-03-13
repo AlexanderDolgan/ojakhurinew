@@ -3,7 +3,7 @@
 <section class="gallery-page-wrapper">
     <div class="container-fluid">
         <div class="row">
-            <a href="http://www.ojakhuri.ru/3dtour/index.html" target="_blank"><h1 class="dtour-link">3D ТУР</h1></a>
+            <a href="http://www.ojakhuri.ru/Moscow3dtour/index.html" target="_blank"><h1 class="dtour-link">3D ТУР</h1></a>
             <h1>ИНТЕРЬЕР</h1>
             <div>
                 <?php echo photo_gallery(3); ?>

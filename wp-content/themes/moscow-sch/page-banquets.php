@@ -1,18 +1,20 @@
 <? get_header(); ?> <!--include header.php-->
+<div class="container-fluid / bnq">
 <div class="container">
 	<?php
-	if ( have_posts() ) :
-		while ( have_posts() ) :
-			the_post()
+	//The query
+	$args = array('post_type' => 'structure_page', 'p' => '1698');
+	$the_query = new WP_Query ($args);
+
+	if ( $the_query->have_posts() ) :
+		while ( $the_query->have_posts() ) :
+			$the_query->the_post()
 			?>
 			<div class="row / single-news">
 				<h1><?php the_title(); ?></h1>
 
 				<p class="single-date"><?php the_date(); ?></p>
 
-				<div class="single-img">
-					<?php the_post_thumbnail( 'large' ) ?>
-				</div>
 
 				<p><?php the_content(); ?></p>
 
@@ -20,10 +22,12 @@
 			<?php
 		endwhile;
 	else:
-		echo 'sorry but we can\'t find any post\'s';
+		echo 'Test';
 	endif;
+	/* Restore original Post Data */
+	wp_reset_postdata();
 	?>
 </div>
-
+</div>
 
 <?php get_footer(); ?> <!--include footer.php -->

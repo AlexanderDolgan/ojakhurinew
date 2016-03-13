@@ -508,12 +508,13 @@ footer::before {
 
 //single post
 .single-news {
-  padding: 100px 15px 0;
+  padding: 100px 15px 100px;
 }
 
 .single-img img {
   text-align: center;
   max-height: 500px;
+  width: auto;
   margin: 2em 0;
 }
 
@@ -545,6 +546,11 @@ footer::before {
   padding: 50px 0;
 }
 
+.microphone {
+  height: 54px;
+  padding-left: 20px;
+}
+
 .wrapper-karaoke::after {
   content:"";
   position: absolute;
@@ -565,3 +571,9 @@ footer::before {
 }
 
 
+// Banquets
+
+//single post
+.bnq {
+  background-color: $brand-green;
+}

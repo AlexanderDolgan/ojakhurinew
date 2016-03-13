@@ -138,8 +138,8 @@
 } else {
     // no posts found
 }
-/* Restore original Post Data */
-wp_reset_postdata();
+    /* Restore original Post Data */
+    wp_reset_postdata();
 ?>
 
 
