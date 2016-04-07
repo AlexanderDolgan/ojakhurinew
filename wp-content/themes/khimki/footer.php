@@ -23,16 +23,19 @@ $the_query->the_post(); ?>
 				<p><?php echo get_post_meta( $post->ID, 'header1', true ) . '</br>';
 					echo get_post_meta( $post->ID, 'text_area1', true );?></p>
 				<br>
-				<p class="copyright">2013 — <?php echo date('Y');?> © Оджахури</p>
+
 			</div>
 			<div class="phone col-md-3">
-				<a href="tel:<?php echo get_post_meta( $post->ID, 'header3', true );?>"> <?php echo get_post_meta( $post->ID, 'text_area3', true );?></a>
+				<a href="tel:<?php echo get_post_meta( $post->ID, 'header3', true );?>"> <?php echo get_post_meta( $post->ID, 'text_area3', true );?></a><br><br>
 				<a href="mailto:<?php echo get_post_meta( $post->ID, 'text_area4' ,true); ?>"><?php echo get_post_meta( $post->ID, 'text_area4' ,true); ?></a>
 			</div>
 			<div class="logo-footer col-md-offset-2 col-md-3">
 				<a href="<?php echo network_home_url(); ?>"><img
 						src="<?php echo get_template_directory_uri(); ?>/img/svg/logo-vert.svg" alt="логотип Оджахури"></a>
 			</div>
+		</div>
+		<div class="row / copyright">
+			<p class="copyright">2013 — <?php echo date('Y');?> © Оджахури</p>
 		</div>
 
 	</section>
@@ -45,8 +48,6 @@ $the_query->the_post(); ?>
 	}
 	/* Restore original Post Data */
 	wp_reset_postdata();
-	?>
-
 	?>
 </footer>
 </header>

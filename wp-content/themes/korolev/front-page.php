@@ -5,7 +5,7 @@
     <div class="hero-img row">
        <?php get_template_part('hero_img')?>
     </div>
-    <div class="container">
+    <div class="container / about">
         <div class="row">
 
             <!--Start Query for page index.php / custom_pages -> Главная-->

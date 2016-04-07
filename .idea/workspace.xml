@@ -2,124 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c84776-c096-4c93-84b3-677749cbc3dc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/khimki/img/svg/microphone.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/korolev/img/svg/microphone.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/moscow-sch/img/svg/microphone.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/index.html" afterPath="$PROJECT_DIR$/Moscow3dtour/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/krpano.js" afterPath="$PROJECT_DIR$/Moscow3dtour/krpano.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/krpano.swf" afterPath="$PROJECT_DIR$/Moscow3dtour/krpano.swf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/krpano.xml" afterPath="$PROJECT_DIR$/Moscow3dtour/krpano.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p1/pano_b.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p1/pano_b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p1/pano_d.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p1/pano_d.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p1/pano_f.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p1/pano_f.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p1/pano_l.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p1/pano_l.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p1/pano_r.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p1/pano_r.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p1/pano_u.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p1/pano_u.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p1/preview.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p1/preview.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p1/thumb.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p1/thumb.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p2/pano_b.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p2/pano_b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p2/pano_d.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p2/pano_d.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p2/pano_f.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p2/pano_f.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p2/pano_l.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p2/pano_l.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p2/pano_r.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p2/pano_r.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p2/pano_u.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p2/pano_u.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p2/preview.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p2/preview.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p2/thumb.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p2/thumb.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p3/pano_b.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p3/pano_b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p3/pano_d.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p3/pano_d.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p3/pano_f.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p3/pano_f.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p3/pano_l.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p3/pano_l.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p3/pano_r.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p3/pano_r.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p3/pano_u.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p3/pano_u.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p3/preview.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p3/preview.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p3/thumb.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p3/thumb.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p4/pano_b.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p4/pano_b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p4/pano_d.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p4/pano_d.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p4/pano_f.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p4/pano_f.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p4/pano_l.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p4/pano_l.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p4/pano_r.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p4/pano_r.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p4/pano_u.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p4/pano_u.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p4/preview.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p4/preview.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p4/thumb.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p4/thumb.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p5/pano_b.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p5/pano_b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p5/pano_d.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p5/pano_d.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p5/pano_f.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p5/pano_f.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p5/pano_l.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p5/pano_l.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p5/pano_r.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p5/pano_r.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p5/pano_u.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p5/pano_u.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p5/preview.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p5/preview.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p5/thumb.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p5/thumb.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p6/pano_b.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p6/pano_b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p6/pano_d.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p6/pano_d.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p6/pano_f.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p6/pano_f.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p6/pano_l.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p6/pano_l.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p6/pano_r.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p6/pano_r.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p6/pano_u.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p6/pano_u.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p6/preview.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p6/preview.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p6/thumb.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p6/thumb.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p7/pano_b.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p7/pano_b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p7/pano_d.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p7/pano_d.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p7/pano_f.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p7/pano_f.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p7/pano_l.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p7/pano_l.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p7/pano_r.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p7/pano_r.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p7/pano_u.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p7/pano_u.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p7/preview.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p7/preview.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p7/thumb.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p7/thumb.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p8/pano_b.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p8/pano_b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p8/pano_d.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p8/pano_d.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p8/pano_f.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p8/pano_f.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p8/pano_l.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p8/pano_l.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p8/pano_r.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p8/pano_r.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p8/pano_u.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p8/pano_u.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p8/preview.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p8/preview.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/pano/p8/thumb.jpg" afterPath="$PROJECT_DIR$/Moscow3dtour/pano/p8/thumb.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/plugins/combobox.js" afterPath="$PROJECT_DIR$/Moscow3dtour/plugins/combobox.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/plugins/combobox.swf" afterPath="$PROJECT_DIR$/Moscow3dtour/plugins/combobox.swf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/plugins/dbclick.js" afterPath="$PROJECT_DIR$/Moscow3dtour/plugins/dbclick.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/plugins/dbclick.swf" afterPath="$PROJECT_DIR$/Moscow3dtour/plugins/dbclick.swf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/plugins/editor.swf" afterPath="$PROJECT_DIR$/Moscow3dtour/plugins/editor.swf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/plugins/radar.js" afterPath="$PROJECT_DIR$/Moscow3dtour/plugins/radar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/plugins/radar.swf" afterPath="$PROJECT_DIR$/Moscow3dtour/plugins/radar.swf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/plugins/scroll.js" afterPath="$PROJECT_DIR$/Moscow3dtour/plugins/scroll.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/plugins/scroll.swf" afterPath="$PROJECT_DIR$/Moscow3dtour/plugins/scroll.swf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/plugins/textfield.swf" afterPath="$PROJECT_DIR$/Moscow3dtour/plugins/textfield.swf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/skin/Thumbs.db" afterPath="$PROJECT_DIR$/Moscow3dtour/skin/Thumbs.db" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/skin/arrow.png" afterPath="$PROJECT_DIR$/Moscow3dtour/skin/arrow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/skin/back.png" afterPath="$PROJECT_DIR$/Moscow3dtour/skin/back.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/skin/border.png" afterPath="$PROJECT_DIR$/Moscow3dtour/skin/border.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/skin/default — копия.xml" afterPath="$PROJECT_DIR$/Moscow3dtour/skin/default — копия.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/skin/default.xml" afterPath="$PROJECT_DIR$/Moscow3dtour/skin/default.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/skin/help.png" afterPath="$PROJECT_DIR$/Moscow3dtour/skin/help.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/skin/hs.png" afterPath="$PROJECT_DIR$/Moscow3dtour/skin/hs.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/skin/logo.png" afterPath="$PROJECT_DIR$/Moscow3dtour/skin/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/skin/logo2.png" afterPath="$PROJECT_DIR$/Moscow3dtour/skin/logo2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/skin/logo3.png" afterPath="$PROJECT_DIR$/Moscow3dtour/skin/logo3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/skin/menu.png" afterPath="$PROJECT_DIR$/Moscow3dtour/skin/menu.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/skin/qtvr.png" afterPath="$PROJECT_DIR$/Moscow3dtour/skin/qtvr.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3dtour/skin/test.png" afterPath="$PROJECT_DIR$/Moscow3dtour/skin/test.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/src/build-title/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/title/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Koroleev3dtour/krpano.xml" afterPath="$PROJECT_DIR$/Koroleev3dtour/krpano.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Moscow3dtour/krpano.xml" afterPath="$PROJECT_DIR$/Moscow3dtour/krpano.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khimki/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/khimki/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khimki/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/khimki/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khimki/front-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/khimki/front-page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khimki/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/khimki/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khimki/home.php" afterPath="$PROJECT_DIR$/wp-content/themes/khimki/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khimki/img/svg/img-clip.svg" afterPath="$PROJECT_DIR$/wp-content/themes/khimki/img/svg/img-clip.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khimki/js/main.js" afterPath="$PROJECT_DIR$/wp-content/themes/khimki/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khimki/maps/main.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/khimki/maps/main.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khimki/maps/main.js.map" afterPath="$PROJECT_DIR$/wp-content/themes/khimki/maps/main.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khimki/page-banquet.php" afterPath="$PROJECT_DIR$/wp-content/themes/khimki/page-banquet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khimki/page-gallery.php" afterPath="$PROJECT_DIR$/wp-content/themes/khimki/page-gallery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khimki/page-banquets.php" afterPath="$PROJECT_DIR$/wp-content/themes/khimki/page-banquets.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/khimki/singular.php" afterPath="$PROJECT_DIR$/wp-content/themes/khimki/singular.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/korolev/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/korolev/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/korolev/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/korolev/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/korolev/front-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/korolev/front-page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/korolev/home.php" afterPath="$PROJECT_DIR$/wp-content/themes/korolev/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/korolev/img/svg/img-clip.svg" afterPath="$PROJECT_DIR$/wp-content/themes/korolev/img/svg/img-clip.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/korolev/page-banquets.php" afterPath="$PROJECT_DIR$/wp-content/themes/korolev/page-banquets.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/korolev/page-gallery.php" afterPath="$PROJECT_DIR$/wp-content/themes/korolev/page-gallery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/korolev/singular.php" afterPath="$PROJECT_DIR$/wp-content/themes/korolev/singular.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/moscow-sch/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/moscow-sch/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/moscow-sch/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/moscow-sch/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/moscow-sch/front-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/moscow-sch/front-page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/moscow-sch/maps/main.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/moscow-sch/maps/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/moscow-sch/maps/main.js.map" afterPath="$PROJECT_DIR$/wp-content/themes/moscow-sch/maps/main.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/moscow-sch/home.php" afterPath="$PROJECT_DIR$/wp-content/themes/moscow-sch/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/moscow-sch/img/svg/img-clip.svg" afterPath="$PROJECT_DIR$/wp-content/themes/moscow-sch/img/svg/img-clip.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/moscow-sch/page-banquets.php" afterPath="$PROJECT_DIR$/wp-content/themes/moscow-sch/page-banquets.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/moscow-sch/page-gallery.php" afterPath="$PROJECT_DIR$/wp-content/themes/moscow-sch/page-gallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/src/build-title/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/src/build-title/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/src/build-title/index.html" afterPath="$PROJECT_DIR$/wp-content/themes/src/build-title/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/src/build-title/js/main.js" afterPath="$PROJECT_DIR$/wp-content/themes/src/build-title/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/moscow-sch/page-mainmenu.php" afterPath="$PROJECT_DIR$/wp-content/themes/moscow-sch/page-mainmenu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/moscow-sch/page-menutemplate.php" afterPath="$PROJECT_DIR$/wp-content/themes/moscow-sch/page-menutemplate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/moscow-sch/singular.php" afterPath="$PROJECT_DIR$/wp-content/themes/moscow-sch/singular.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/src/build-title/maps/main.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/src/build-title/maps/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/src/build-title/maps/main.js.map" afterPath="$PROJECT_DIR$/wp-content/themes/src/build-title/maps/main.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/src/build/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/src/build/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/src/build/js/main.js" afterPath="$PROJECT_DIR$/wp-content/themes/src/build/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/src/build/maps/main.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/src/build/maps/main.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/src/build/maps/main.js.map" afterPath="$PROJECT_DIR$/wp-content/themes/src/build/maps/main.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/src/src-title/style/partials/_mobile.scss" afterPath="$PROJECT_DIR$/wp-content/themes/src/src-title/style/partials/_mobile.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/src/src-title/style/partials/app.scss" afterPath="$PROJECT_DIR$/wp-content/themes/src/src-title/style/partials/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/src/src/js/partials/app.js" afterPath="$PROJECT_DIR$/wp-content/themes/src/src/js/partials/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/src/src/style/main.scss" afterPath="$PROJECT_DIR$/wp-content/themes/src/src/style/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/src/src/style/partials/_mobile.scss" afterPath="$PROJECT_DIR$/wp-content/themes/src/src/style/partials/_mobile.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/src/src/style/partials/app.scss" afterPath="$PROJECT_DIR$/wp-content/themes/src/src/style/partials/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/title/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/title/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/title/front-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/title/front-page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/title/singular.php" afterPath="$PROJECT_DIR$/wp-content/themes/title/singular.php" />
     </list>
     <ignored path="ojakhuri.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -146,56 +73,81 @@
     <favorites_list name="ojakhuri" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src-title/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-14.375">
-                  <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="front-page.php" pinned="true" current-in-tab="false">
-            <entry file="REMOTE_DEPLOYMENT_FS://&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/title/front-page.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="header.php" pinned="true" current-in-tab="true">
-            <entry file="REMOTE_DEPLOYMENT_FS://&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/title/header.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.3409091">
-                  <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="app.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src-title/style/partials/app.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.42038217">
-                  <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="app.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src/style/partials/app.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.31274638">
+              <caret line="174" column="15" selection-start-line="174" selection-start-column="15" selection-end-line="174" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src/js/partials/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="front-page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/khimki/front-page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.375">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <folding>
+                <marker date="1460037318000" expanded="true" signature="1308:1664" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="1660:1664" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="1776:1843" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="1943:3005" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="1975:3005" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="1996:3005" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="2080:3005" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="2143:2836" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="2918:3005" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="2950:3005" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="3090:3145" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="3230:3285" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="3370:3425" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="3510:3565" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="3650:3705" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="3790:3845" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="3930:3985" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="4070:4125" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="4324:4458" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="4563:4694" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="4836:5074" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="4862:5074" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="4883:5074" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="4922:5074" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="5305:5457" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="5675:5826" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="6287:6469" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="6320:6469" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="6340:6469" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="6637:6701" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="6666:6701" placeholder="..." />
+                <marker date="1460037318000" expanded="true" signature="6765:6816" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_mobile.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src/style/partials/_mobile.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -220,31 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/src/src/jade/cover.jade" />
-        <option value="$PROJECT_DIR$/wp-content/themes/src/src/style/main-title.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/src/src/cover.html" />
-        <option value="$PROJECT_DIR$/wp-content/themes/src/gulpfile.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/src/gulpfile-title.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/src/src-title/template/header.html" />
-        <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/korolev/page-banquets.php" />
-        <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/moscow-sch/page-banquets.php" />
-        <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/korolev/front-page.php" />
-        <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/khimki/front-page.php" />
-        <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/khimki/singular.php" />
-        <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/korolev/singular.php" />
-        <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/moscow-sch/singular.php" />
-        <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/moscow-sch/index.php" />
-        <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/moscow-sch/functions.php" />
-        <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/moscow-sch/front-page.php" />
-        <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/moscow-sch/footer.php" />
-        <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/korolev/footer.php" />
-        <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/korolev/functions.php" />
-        <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/khimki/functions.php" />
-        <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/khimki/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/src/src-title/index.html" />
-        <option value="$PROJECT_DIR$/wp-content/themes/title/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/title/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/title/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/src/src-title/template/footer.html" />
         <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/title/style.css" />
         <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/title/footer.php" />
@@ -255,22 +182,47 @@
         <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/title/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/src/build-title/index.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/src/src-title/js/partials/app.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/moscow-sch/front-page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/moscow-sch/page-banquets.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/korolev/page-banquets.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/khimki/page-banquet.php" />
         <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/moscow-sch/page-gallery.php" />
         <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/korolev/page-gallery.php" />
         <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/khimki/page-gallery.php" />
         <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/moscow-sch/page-karaok.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/src/src/style/partials/app.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/moscow-sch/page-gallery.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/korolev/page-gallery.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/khimki/page-gallery.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/title/index.php" />
         <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/title/index.php" />
         <option value="&lt;d331b01c-ca48-44b9-8204-33fa8084567e&gt;/wp-content/themes/title/front-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/title/front-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/title/singular.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/khimki/singular.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/korolev/singular.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/moscow-sch/singular.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/moscow-sch/page-mainmenu.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/moscow-sch/page-menutemplate.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/moscow-sch/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/moscow-sch/home.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/khimki/home.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/korolev/home.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/korolev/page-banquets.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/khimki/page-banquets.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/khimki/page-banquet.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/moscow-sch/page-banquets.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/src/src-title/style/partials/_media400.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/src/src-title/style/main.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/src/src/style/partials/media400.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/src/src-title/style/partials/_mobile.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/src/src-title/style/partials/app.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/moscow-sch/front-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/moscow-sch/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/src/src/style/main.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/moscow-sch/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/khimki/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/korolev/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/khimki/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/src/src/style/partials/_mobile.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/khimki/front-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/src/src/js/partials/app.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/src/src/style/partials/app.scss" />
       </list>
     </option>
   </component>
@@ -399,10 +351,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="73" />
-    <option name="y" value="28" />
-    <option name="width" value="1547" />
-    <option name="height" value="1048" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -429,7 +380,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -476,7 +426,55 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
+              <option name="myItemId" value="uploads" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ojakhurinew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ojakhurinew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uploads" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="11" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ojakhurinew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ojakhurinew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uploads" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -495,36 +493,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="title" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ojakhurinew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ojakhurinew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="title" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -547,32 +515,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ojakhurinew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ojakhurinew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build-title" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -598,17 +540,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="build-title" />
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ojakhurinew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ojakhurinew" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="khimki" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -631,19 +592,19 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/wp-content/themes/title/css" />
-      <recent name="$PROJECT_DIR$/wp-content/themes/moscow-sch" />
-      <recent name="$PROJECT_DIR$/wp-content/themes/khimki/img/svg" />
-      <recent name="$PROJECT_DIR$/wp-content/themes/korolev/img/svg" />
-      <recent name="$PROJECT_DIR$/wp-content/themes/moscow-sch/img/svg" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes/title/css" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/wp-content/themes/moscow-sch" />
-      <recent name="$PROJECT_DIR$/wp-content/themes/title/css" />
       <recent name="$PROJECT_DIR$/wp-content/themes/src/src/jade" />
       <recent name="$PROJECT_DIR$/3dtour" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes/khimki" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/khimki/css" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/src/build/css" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/khimki/js" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/korolev/css" />
     </key>
   </component>
   <component name="RunManager">
@@ -694,18 +655,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="73" y="28" width="1547" height="1048" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15936953" sideWeight="0.5022599" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16964285" sideWeight="0.49774012" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16514692" sideWeight="0.49774012" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14939025" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29336736" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22044729" sideWeight="0.65841585" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2372093" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27508307" sideWeight="0.34158415" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14893617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29280648" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22736955" sideWeight="0.62252474" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15548456" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22736955" sideWeight="0.37700865" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29760227" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14296874" sideWeight="0.5197368" order="2" side_tool="true" content_ui="tabs" />
@@ -763,221 +724,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src/single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src/style/partials/_mobile.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/quick-restaurant-menu/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23961662">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/quick-restaurant-menu/includes/post-types.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45173746">
-          <caret line="39" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="127" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/quick-restaurant-menu/quick-restaurant-menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.100386">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/moscow-sch/img/top_curve_green.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ojakhuri-sch/page-gallery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40106952">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Moscow3dtour/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src/restmenu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32554257">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/build/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.025041737">
-          <caret line="31" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="116" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src/style/partials/_var.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30050084">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/moscow-sch/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18382353">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/khimki/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.033557046">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/korolev/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src/template/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47216037">
-          <caret line="43" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src/style/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9126365">
-          <caret line="39" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src/cover.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/gulpfile-title.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25657895">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/page-mainojakhuri.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.546697">
-          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/js/creative.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83801293">
-          <caret line="64" column="7" selection-start-line="40" selection-start-column="4" selection-end-line="64" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/sass/screen.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.745098">
-          <caret line="135" column="1" selection-start-line="122" selection-start-column="0" selection-end-line="135" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20501138">
-          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/title/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5125285">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src-title/template/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44419134">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src-title/style/partials/_var.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13667426">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/title/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44419134">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src-title/template/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4783599">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/title/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/title/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src-title/style/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44064748">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/build-title/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.371134">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src-title/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12371134">
@@ -999,13 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/moscow-sch/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58762884">
-          <caret line="19" column="77" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/moscow-sch/navigation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1020,46 +759,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/moscow-sch/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/moscow-sch/page-banquets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/korolev/page-banquets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.125">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/khimki/page-banquet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28610355">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/moscow-sch/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.020435967">
-          <caret line="14" column="74" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/khimki/page-gallery.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22123894">
           <caret line="5" column="112" selection-start-line="5" selection-start-column="112" selection-end-line="5" selection-end-column="112" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1067,15 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.044247787">
           <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src/style/partials/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.044247787">
-          <caret line="542" column="1" selection-start-line="542" selection-start-column="1" selection-end-line="542" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1083,7 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.029880479">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,7 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20491803">
           <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,30 +791,340 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44117647">
           <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ojakhuri-khimki/page-mainojakhuri.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1045891">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khimki/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.6560936">
+        <state vertical-scroll-proportion="0.7622821">
           <caret line="132" column="22" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src/template/hero-img.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4025357">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src/template/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.14104596">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src/cover.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src-title/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.375">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding />
+        <state vertical-scroll-proportion="-16.25">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/title/singular.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45531198">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khimki/singular.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75">
+          <caret line="14" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/korolev/singular.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="4" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/moscow-sch/page-rest-menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.12048193">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/moscow-sch/singular.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/moscow-sch/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/title/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/moscow-sch/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khimki/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="44" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/korolev/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.625">
+          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/korolev/page-banquets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src-title/style/partials/_mobile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src-title/style/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.375">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src-title/style/partials/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42038217">
-          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.5890411">
+          <caret line="109" column="14" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khimki/page-banquets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26350245">
+          <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khimki/page-banquet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29459903">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/moscow-sch/page-banquets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3927987">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src/style/partials/_var.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/moscow-sch/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46255508">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/moscow-sch/page-menutemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19823788">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/moscow-sch/page-mainmenu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14096916">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/korolev/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src/style/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/moscow-sch/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/moscow-sch/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="39" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/korolev/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khimki/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="78" selection-start-line="37" selection-start-column="78" selection-end-line="37" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khimki/hero_img.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/korolev/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10948905">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khimki/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26277372">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <marker date="1459985008000" expanded="true" signature="8934:9038" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src/style/partials/_mobile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/khimki/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.375">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <marker date="1460037318000" expanded="true" signature="1308:1664" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="1660:1664" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="1776:1843" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="1943:3005" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="1975:3005" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="1996:3005" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="2080:3005" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="2143:2836" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="2918:3005" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="2950:3005" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="3090:3145" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="3230:3285" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="3370:3425" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="3510:3565" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="3650:3705" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="3790:3845" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="3930:3985" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="4070:4125" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="4324:4458" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="4563:4694" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="4836:5074" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="4862:5074" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="4883:5074" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="4922:5074" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="5305:5457" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="5675:5826" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="6287:6469" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="6320:6469" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="6340:6469" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="6637:6701" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="6666:6701" placeholder="..." />
+            <marker date="1460037318000" expanded="true" signature="6765:6816" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src/js/partials/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/src/src/style/partials/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31274638">
+          <caret line="174" column="15" selection-start-line="174" selection-start-column="15" selection-end-line="174" selection-end-column="15" />
           <folding />
         </state>
       </provider>

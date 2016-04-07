@@ -3,3 +3,66 @@
     display: block;
   }
 }
+
+@media (max-width:400px) {
+  .about {
+    margin-top:35px;
+    padding-top: 0;
+  }
+
+  .rest-name {
+    float: none;
+    text-align: center;
+  }
+
+  .advant-item {
+    padding: 0;
+    height: 430px;
+    margin: 50px 0;
+  }
+
+  .site-footer {
+    padding: 20px;
+  }
+
+  //menu page
+  .sub-menu {
+    padding-top: 2em;
+  }
+
+  .sub-menu ul {
+    text-align: center;
+  }
+
+  .sub-menu ul li{
+    padding: 0;
+  }
+
+  .sub-menu ul li a{
+    font-size: 12px;
+  }
+
+  .erm_title {
+    margin: 10px 0;
+    font-size: 3em;
+  }
+
+  .erm_product_title {
+    font-size: 1.2em;
+    margin: 1em 0;
+  }
+
+  .with_image {
+    min-height: 0;
+  }
+
+  .logo-footer {
+    display: none;
+  }
+
+  //Contacts page
+  .contacts h1 {
+    font-size: 2em;
+    line-height: 1;
+  }
+}

@@ -3,40 +3,43 @@
 
 <?php
 
-            // The Query
-            $args = array( 'post_type' => 'structure_page', 'p' => 1701 );
-            $the_query = new WP_Query( $args );
+// The Query
+$args      = array( 'post_type' => 'structure_page', 'p' => 1701 );
+$the_query = new WP_Query( $args );
 
-            // The Loop
-            if ( $the_query->have_posts() ) {
+// The Loop
+if ( $the_query->have_posts() ) {
 
-            while ( $the_query->have_posts() ) {
-            $the_query->the_post(); ?>
+while ( $the_query->have_posts() ) {
+$the_query->the_post(); ?>
 
 <footer class="container-fluid footer-wrapper">
 	<section class="site-footer container">
 		<div class="row">
 			<div class="col-md-4">
 				<p><?php echo get_post_meta( $post->ID, 'header2', true ) . ' ';
-						echo get_post_meta( $post->ID, 'text_area6', true );
-						echo get_post_meta( $post->ID, 'text_area2', true );?></p>
+					echo get_post_meta( $post->ID, 'text_area6', true );
+					echo get_post_meta( $post->ID, 'text_area2', true ); ?></p>
 				<p><?php echo get_post_meta( $post->ID, 'header1', true ) . '</br>';
-						echo get_post_meta( $post->ID, 'text_area1', true );?></p>
+					echo get_post_meta( $post->ID, 'text_area1', true ); ?></p>
 				<br>
-				<p class="copyright">2013 — <?php echo date('Y');?> © Оджахури</p>
+
 			</div>
 			<div class="phone col-md-3">
-				<a href="tel:<?php echo get_post_meta( $post->ID, 'header3', true );?>"> <?php echo get_post_meta( $post->ID, 'text_area3', true );?></a>
-				<a href="mailto:<?php echo get_post_meta( $post->ID, 'text_area4' ,true); ?>"><?php echo get_post_meta( $post->ID, 'text_area4' ,true); ?></a>
+				<a href="tel:<?php echo get_post_meta( $post->ID, 'header3', true ); ?>"> <?php echo get_post_meta( $post->ID, 'text_area3', true ); ?></a>
+				<a href="mailto:<?php echo get_post_meta( $post->ID, 'text_area4', true ); ?>"><?php echo get_post_meta( $post->ID, 'text_area4', true ); ?></a>
 			</div>
 			<div class="logo-footer col-md-offset-2 col-md-3">
 				<a href="<?php echo network_home_url(); ?>"><img
 						src="<?php echo get_template_directory_uri(); ?>/img/svg/logo-vert.svg" alt="логотип Оджахури"></a>
 			</div>
-		</div>
 
+		</div>
+		<div class="row / copyright">
+			<p>2013 — <?php echo date( 'Y' ); ?> © Оджахури</p>
+		</div>
 	</section>
-<!--	End Loop-->
+	<!--	End Loop-->
 	<?php
 	}
 
@@ -47,7 +50,6 @@
 	wp_reset_postdata();
 	?>
 
-	?>
 </footer>
 </header>
 </section>

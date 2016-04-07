@@ -6,7 +6,7 @@ Template Name: Menu Pages
 
 <? get_header(); ?> <!--include header.php-->
 
-<section class="container">
+<section class="container / main-menu-bg">
 	<div class="row / sub-menu">
 		<ul>
 			<?php

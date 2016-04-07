@@ -23,7 +23,6 @@ $the_query->the_post(); ?>
 				<p><?php echo get_post_meta( $post->ID, 'header1', true ) . '</br>';
 					echo get_post_meta( $post->ID, 'text_area1', true );?></p>
 				<br>
-				<p class="copyright">2013 — <?php echo date('Y');?> © Оджахури</p>
 			</div>
 			<div class="phone col-md-3">
 				<a href="tel:<?php echo get_post_meta( $post->ID, 'header3', true );?>"> <?php echo get_post_meta( $post->ID, 'text_area3', true );?></a>
@@ -33,6 +32,9 @@ $the_query->the_post(); ?>
 				<a href="<?php echo network_home_url(); ?>"><img
 						src="<?php echo get_template_directory_uri(); ?>/img/svg/logo-vert.svg" alt="логотип Оджахури"></a>
 			</div>
+		</div>
+		<div class="row / copyright">
+			<p>2013 — <?php echo date( 'Y' ); ?> © Оджахури</p>
 		</div>
 
 	</section>
@@ -47,7 +49,6 @@ $the_query->the_post(); ?>
 	wp_reset_postdata();
 	?>
 
-	?>
 </footer>
 </header>
 </section>

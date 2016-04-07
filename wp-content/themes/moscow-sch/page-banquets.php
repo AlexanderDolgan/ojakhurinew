@@ -1,5 +1,5 @@
 <? get_header(); ?> <!--include header.php-->
-<div class="container-fluid / bnq">
+<div class="container-fluid / bnq-wrapper">
 <div class="container">
 	<?php
 	//The query
@@ -10,10 +10,10 @@
 		while ( $the_query->have_posts() ) :
 			$the_query->the_post()
 			?>
-			<div class="row / single-news">
+			<div class="row / banquets">
 				<h1><?php the_title(); ?></h1>
 
-				<p class="single-date"><?php the_date(); ?></p>
+<!--				<p class="single-date">--><?php //the_date(); ?><!--</p>-->
 
 
 				<p><?php the_content(); ?></p>

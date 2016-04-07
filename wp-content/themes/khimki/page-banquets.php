@@ -1,5 +1,5 @@
 <? get_header(); ?> <!--include header.php-->
-<div class="container / contacts">
+<div class="container / bnq-wrapper">
 
 	<!--Start Query for page index.php / custom_pages -> Контакты-->
 	<?php
