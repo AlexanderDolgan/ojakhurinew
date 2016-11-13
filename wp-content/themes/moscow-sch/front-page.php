@@ -3,7 +3,45 @@
 <section class="hero container-fluid">
     <!--hero background image-->
     <div class="hero-img row">
-       <?php get_template_part('hero_img')?>
+        <!--hero slider query-->
+        <?php
+
+        // The Query
+        $args      = array( 'post_type' => 'structure_page', 'p' => 1994 );
+        $the_query = new WP_Query( $args );
+
+        // The Loop
+        if ( $the_query->have_posts() ) {
+
+            while ( $the_query->have_posts() ) {
+                $the_query->the_post();
+                ?>
+
+                <div class="slideshow">
+
+                    <div class="fadein">
+                        <img src="<?php echo get_post_meta( $post->ID, 'gal1', true ) ?>"
+                             alt="interior1">
+                        <img src="<?php echo get_post_meta( $post->ID, 'gal2', true ) ?>"
+                             alt="interior1">
+                        <img src="<?php echo get_post_meta( $post->ID, 'gal3', true ) ?>"
+                             alt="interior1">
+                        <img src="<?php echo get_post_meta( $post->ID, 'gal4', true ) ?>"
+                             alt="interior1">
+                        <img src="<?php echo get_post_meta( $post->ID, 'gal3', true ) ?>"
+                             alt="interior1">
+                    </div>
+                </div>
+                <!--End Query for page index.php / custom_pages -> Главная-->
+                <?php
+            }
+
+        } else {
+            // no posts found
+        }
+        /* Restore original Post Data */
+        wp_reset_postdata();
+        ?>
     </div>
     <div class="container / about">
         <div class="row">

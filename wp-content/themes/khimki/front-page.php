@@ -3,7 +3,6 @@
 <section class="hero container-fluid">
 	<!--hero background image-->
 	<div class="hero-img row">
-
 		<!--Start Query for page index.php / custom_pages -> Главная-->
 		<?php
 
@@ -43,6 +42,7 @@
 		/* Restore original Post Data */
 		wp_reset_postdata();
 		?>
+
 	</div>
 
 	<div class="container / about">

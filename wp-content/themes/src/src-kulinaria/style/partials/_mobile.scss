@@ -1,0 +1,18 @@
+@media (max-width:500px) {
+  .col1>p>span {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .about-h1 {
+    font-size: 32px;
+  }
+
+  .news-item h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+}

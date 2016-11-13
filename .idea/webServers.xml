@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bb5823bc-072c-4044-bd64-195f27d09a3d" name="Ojakhuri" url="http://ojakhuri.ru">
+        <fileTransfer host="ojakhuri.ru" port="21" rootFolder="/ojakhuri.tmweb.ru/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

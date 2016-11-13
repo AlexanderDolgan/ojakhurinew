@@ -8,7 +8,7 @@
 			the_post()
 	?>
 	<div class="row / single-news">
-		<h4><a href="<?php echo bloginfo('url') . '/news/' ?>">Вернуться в раздел новости</a></h4>
+		<h4><a href="<?php echo bloginfo('url') . '/новости/' ?>">Вернуться в раздел новости</a></h4>
 		<h1><?php the_title(); ?></h1>
 
 <!--		<p class="single-date">--><?php //the_date(); ?><!--</p>-->

@@ -9,10 +9,10 @@ add_action( 'wp_enqueue_scripts', 'theme_styles' );
 
 //link scripts
 function theme_js() {
-	wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js' );
+	wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js','','', true );
 }
 
-add_action( 'wp_enqueue_scripts', 'theme_js' );
+add_action( 'wp_enqueue_scripts', 'theme_js','','',true );
 
 
 
@@ -243,6 +243,7 @@ $meta_fields = array(
 		'id'    => 'gal9', // даем идентификатор.
 		'type'  => 'text'  // Указываем тип поля.
 	),
+
 //	array(
 //		'label' => 'Чекбоксы (флажки)',
 //		'desc'  => 'Описание для поля.',
@@ -307,6 +308,10 @@ function show_my_metabox() {
 					echo '<option', $meta == $option['value'] ? ' selected="selected"' : '', ' value="'.$option['value'].'">'.$option['label'].'</option>';
 				}
 				echo '</select><br /><span class="description">'.$field['desc'].'</span>';
+				break;
+			case 'file':
+				echo '<input type="file" name="'.$field['id'].'" id="'.$field['id'].'" value="'.$meta.'" size="30" />
+        <br /><span class="description">'.$field['desc'].'</span>';
 				break;
 		}
 		echo '</td></tr>';
