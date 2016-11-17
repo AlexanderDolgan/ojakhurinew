@@ -47,9 +47,14 @@
 			</div>
 
 			<div class="rest-adresses">
+				<a href="<?php echo bloginfo( 'url' ) . '/kulinaria' ?>""><h3
+					class="rest-name"><?php echo get_post_meta( $post->ID, 'header5', true ) ?></h3></a>
+				<p class="rest-adress"><?php echo get_post_meta( $post->ID, 'text_area5', true ) ?></p>
+				<!--<img src="" alt="кулинария">-->
+			</div>
+			<div class="rest-adresses">
 				<a href="#" class="slow-ride"><h4
-						class="rest-name"><?php echo get_post_meta( $post->ID, 'header5', true ) ?></h4></a>
-				<!--<img src="" alt="Химки, Оджахури">-->
+						class="rest-name"><?php echo get_post_meta( $post->ID, 'header6', true ) ?></h4></a>
 			</div>
 		</nav>
 

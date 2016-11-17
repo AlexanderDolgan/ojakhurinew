@@ -1,8 +1,5 @@
 <? get_header(); ?> <!--include header.php-->
-<p>index.php</p>
-<p>index.php</p>
-<p>index.php</p>
-<p>index.php</p>
+
 <!--create a WP_Query request, -->
 <!--show only post title from erm_post-type,-->
 <!--create ul navigation with permalink to single-$posttype.php-->

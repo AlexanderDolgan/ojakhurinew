@@ -16,7 +16,7 @@
 		<!--Phone / Adress / mail / mode-->
 		<div class="row / contacts-info">
 			<div class="col1">
-				<h1><?php the_title(); ?></h1>
+				<h1><?php the_title(); ?><img src="<?php echo get_template_directory_uri();?>/img/svg/microphone.svg" class="microphone" alt="microphone icon"></h1>
 
 				<p><span><?php echo get_post_meta( $post->ID, 'text_area1', true ); ?></p>
 

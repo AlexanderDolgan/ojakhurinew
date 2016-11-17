@@ -2,6 +2,8 @@
 <!--create a WP_Query request, -->
 <!--show only post title from erm_post-type,-->
 <!--create ul navigation with permalink to single-$posttype.php-->
+
+asdasd
 <?php
 $args = array(
   'post_type' => 'erm_menu'

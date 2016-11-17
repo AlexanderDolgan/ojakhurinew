@@ -3,7 +3,7 @@
 <section class="hero container-fluid">
     <!--hero background image-->
     <div class="hero-img row">
-        <!--hero slider query-->
+        <!--Start Query for page index.php / custom_pages -> Главная-->
         <?php
 
         // The Query
